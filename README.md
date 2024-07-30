@@ -2,4 +2,4 @@
 
 ## Techical artefacts
 
-- Client Details[./Client_detais/Client_detail.md]
+- [Client Details](./Client_detais/Client_detail.md)
