@@ -1,4 +1,4 @@
-## Client Overview
+![image](https://github.com/user-attachments/assets/402efeba-c16a-480c-9ada-63bbac73b9f1)![image](https://github.com/user-attachments/assets/915bc5aa-77d6-4453-b08c-1dfcb171318f)## Client Overview
 KN University is a prestigious university in Australia with four active campuses in Melbourne, Sydney, Brisbane, and Adelaide. Dedicated solely to undergraduate programs, the university offers a broad spectrum of academic disciplines across its four faculties. The major areas of specialization include Engineering, Technology, Law and Business. Lecture halls, specialized laboratories, libraries, administrative offices for each campus, students’ accommodations, and dining halls are thoughtfully designed for comprehensiveness and convenience in response to different student categories. As a forward-thinking institution, KN University aims to achieve and deliver quality education, creativity, and readiness towards meeting and overcoming the contemporary world’s demands through a secure and strong network facility.
 
 - Name of the Organisation: KN University
@@ -135,3 +135,31 @@ KN University is a prestigious university in Australia with four active campuses
 ### School Education and Arts
 1.	Bachelor of Primary Education (BPE)
 ![image](https://github.com/user-attachments/assets/e7d6d508-1f18-41d9-b3b1-340dfd2f6e4f)
+
+2.	Bachelor of Secondary Education (SCE)
+![image](https://github.com/user-attachments/assets/ef118d59-25b3-4781-b252-3b54c612c157)
+
+3.	Bachelor of Literature (BOL)
+![image](https://github.com/user-attachments/assets/643f8160-a4af-49ee-91c0-b57f78738c1d)
+
+4.	Bachelor of History (BOH)
+![image](https://github.com/user-attachments/assets/ad6fffa4-4d6f-4e5a-9791-d5a7e137a4a5)
+
+5.	Bachelor of Media and Communications (BMC)
+![image](https://github.com/user-attachments/assets/4abf313d-6ca8-4dc7-bc6b-0ba5db888dd3)
+
+6.	Bachelor of Fine Arts (BFA)
+![image](https://github.com/user-attachments/assets/0b12727f-d00a-48a2-8598-8aeb0f207548)
+
+7.	Bachelor of Music (BMU)
+![image](https://github.com/user-attachments/assets/7d45f533-e796-47f1-a0bf-f73bc82cbe90)
+
+
+
+
+
+
+
+
+
+
