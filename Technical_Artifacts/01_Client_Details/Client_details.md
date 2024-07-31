@@ -7,7 +7,7 @@ KN University is a prestigious university in Australia with four active campuses
 - Location: Australia
 - Type: Public University
 - Campuses:	 
-> 1.	Melbourne
+- 1.	Melbourne
 > 2.	Sydney
 > 3.	Brisbane
 > 4.	Adelaide
