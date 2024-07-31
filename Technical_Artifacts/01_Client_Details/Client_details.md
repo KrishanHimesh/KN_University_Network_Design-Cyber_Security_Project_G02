@@ -156,7 +156,7 @@ KN University is a prestigious university in Australia with four active campuses
 
 
 
-[Back to home](../)
+[Back to home](../../)
 
 
 
