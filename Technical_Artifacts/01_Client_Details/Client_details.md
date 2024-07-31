@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/402efeba-c16a-480c-9ada-63bbac73b9f1)![image](https://github.com/user-attachments/assets/915bc5aa-77d6-4453-b08c-1dfcb171318f)## Client Overview
+## Client Overview
 KN University is a prestigious university in Australia with four active campuses in Melbourne, Sydney, Brisbane, and Adelaide. Dedicated solely to undergraduate programs, the university offers a broad spectrum of academic disciplines across its four faculties. The major areas of specialization include Engineering, Technology, Law and Business. Lecture halls, specialized laboratories, libraries, administrative offices for each campus, students’ accommodations, and dining halls are thoughtfully designed for comprehensiveness and convenience in response to different student categories. As a forward-thinking institution, KN University aims to achieve and deliver quality education, creativity, and readiness towards meeting and overcoming the contemporary world’s demands through a secure and strong network facility.
 
 - Name of the Organisation: KN University
