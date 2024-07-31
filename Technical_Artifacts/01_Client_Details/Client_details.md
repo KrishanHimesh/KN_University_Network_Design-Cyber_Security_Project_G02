@@ -28,13 +28,13 @@ KN University is a prestigious university in Australia with four active campuses
 - Number of Lecture halls:
 - Number of computer labs:
 - Main facilities: 
-1.	Lecture Halls
-2.	Engineering Laboratories 
-3.	IT laboratories
-4.	Library
-5.	Administration Offices
-6.	Cafeteria
-7.	Student Accommodation
+> 1.	Lecture Halls
+> 2.	Engineering Laboratories 
+> 3.	IT laboratories
+> 4.	Library
+> 5.	Administration Offices
+> 6.	Cafeteria
+> 7.	Student Accommodation
 ### 2.	Sydney Campus
 - Address: 400 Kent St, Sydney NSW 2000
 - Number of buildings: 01
@@ -42,13 +42,13 @@ KN University is a prestigious university in Australia with four active campuses
 - Number of Lecture halls:
 - Number of computer labs:
 - Main facilities: 
-1.	Lecture Halls
-2.	Engineering Laboratories 
-3.	IT laboratories
-4.	Library
-5.	Administration Offices
-6.	Cafeteria
-7.	Student Accommodation
+> 1.	Lecture Halls
+> 2.	Engineering Laboratories 
+> 3.	IT laboratories
+> 4.	Library
+> 5.	Administration Offices
+> 6.	Cafeteria
+> 7.	Student Accommodation
  
 ### 3.	Brisbane campus
 - Address: 160 Ann St, Brisbane City, QLD 4000
@@ -57,13 +57,13 @@ KN University is a prestigious university in Australia with four active campuses
 - Number of Lecture halls:
 - Number of computer labs:
 - Main facilities: 
-1.	Lecture Halls
-2.	Engineering Laboratories 
-3.	IT laboratories
-4.	Library
-5.	Administration Offices
-6.	Cafeteria
-7.	Student Accommodation
+> 1.	Lecture Halls
+> 2.	Engineering Laboratories 
+> 3.	IT laboratories
+> 4.	Library
+> 5.	Administration Offices
+> 6.	Cafeteria
+> 7.	Student Accommodation
 
 ### 4.	Adelaide campus
 - Address: 44 B26, Wayville, SA 5034
@@ -72,13 +72,13 @@ KN University is a prestigious university in Australia with four active campuses
 - Number of Lecture halls:
 - Number of computer labs:
 - Main facilities: 
-1.	Lecture Halls
-2.	Engineering Laboratories 
-3.	IT laboratories
-4.	Library
-5.	Administration Offices
-6.	Cafeteria
-7.	Student Accommodation
+> 1.	Lecture Halls
+> 2.	Engineering Laboratories 
+> 3.	IT laboratories
+> 4.	Library
+> 5.	Administration Offices
+> 6.	Cafeteria
+> 7.	Student Accommodation
 
 
 ## Courses offered
