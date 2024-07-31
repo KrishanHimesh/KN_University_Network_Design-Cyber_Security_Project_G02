@@ -1,5 +1,3 @@
-![image](https://github.com/user-attachments/assets/657b5c19-e43d-4770-a52c-f752af98f50e)# Client Details
-
 ## Client Overview
 KN University is a prestigious university in Australia with four active campuses in Melbourne, Sydney, Brisbane, and Adelaide. Dedicated solely to undergraduate programs, the university offers a broad spectrum of academic disciplines across its four faculties. The major areas of specialization include Engineering, Technology, Law and Business. Lecture halls, specialized laboratories, libraries, administrative offices for each campus, students’ accommodations, and dining halls are thoughtfully designed for comprehensiveness and convenience in response to different student categories. As a forward-thinking institution, KN University aims to achieve and deliver quality education, creativity, and readiness towards meeting and overcoming the contemporary world’s demands through a secure and strong network facility.
 
@@ -108,5 +106,32 @@ KN University is a prestigious university in Australia with four active campuses
 4. Bachelor of Cybersecurity (BCS)
 ![image](https://github.com/user-attachments/assets/1f69e996-fb5b-496c-8c9d-db9099dfa3e8)
 
-5. 
+### School of Business and Law
 
+1.	Bachelor of Business Administration (BBA)
+![image](https://github.com/user-attachments/assets/5fedf52c-2683-4ec7-bde8-17a1344e9452)
+
+2.	Bachelor of Marketing (BOM)
+![image](https://github.com/user-attachments/assets/89c01e94-1d0b-4f36-a5ae-3dd19dee94a4)
+
+3.	Bachelor of Finance (BOF)
+![image](https://github.com/user-attachments/assets/5bf761a6-0f6a-48ce-b052-e1a7c449f1a6)
+
+4.	Bachelor of Human Resources (BHR)
+![image](https://github.com/user-attachments/assets/c5ac157e-abc4-4b0d-9679-297d3f44b9ce)
+
+5.	Bachelor of Criminal Law (BCL)
+![image](https://github.com/user-attachments/assets/ebb84b77-d41d-4629-b644-15558e299601)
+
+6.	Bachelor of Corporate Law (BCP)
+![image](https://github.com/user-attachments/assets/bc84bd5f-d7a0-4fa8-9ce2-d1f334345995)
+
+7.	Bachelor of International Law (BIL)
+![image](https://github.com/user-attachments/assets/63f2e91e-745d-4a38-8aa6-185e539ed217)
+
+8.	Bachelor of Human Rights Law (BHL)
+![image](https://github.com/user-attachments/assets/3b0242e9-df19-4d09-9b26-78cfe91c4546)
+
+### School Education and Arts
+1.	Bachelor of Primary Education (BPE)
+![image](https://github.com/user-attachments/assets/e7d6d508-1f18-41d9-b3b1-340dfd2f6e4f)
