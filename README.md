@@ -2,4 +2,4 @@
 
 ## Technical artefacts
 
-- [01. Client Details](./01_Client_Details/Client_details.md)
+- [01. Client Details](/01_Client_Details/Client_details.md)
