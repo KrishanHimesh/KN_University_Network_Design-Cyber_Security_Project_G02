@@ -12,8 +12,8 @@ KN University is a prestigious university in Australia with four active campuses
   3.	Brisbane
   4.	Adelaide
 - Program level: Undergraduate courses
-- Schools: 
-> 1.	School of Engineering
+- Schools:
+      1.	School of Engineering
 > 2.	School of Science and Technology Faculty
 > 3.	School of Business and Law
 > 4.	School of Education and Arts
