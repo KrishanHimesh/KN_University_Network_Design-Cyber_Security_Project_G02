@@ -1,5 +1,5 @@
 # Cyber_Security_Project_G02_KN_University_Networks
 
-## Techical artefacts
+## Technical artefacts
 
-- [Client Details](./Client_detais/Client_detail.md)
+- [01. Client Details](./01_Client_Details/Client_details.md)
