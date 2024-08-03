@@ -1,6 +1,8 @@
 # Network_Security_Plan
+
 A Network Security Plan ensures the university's network is protected against threats, maintains data integrity, and provides secure access to resources. Below is a condensed plan that covers key elements of network security.
-## Objectives
+
+##   Objectives
 Confidentiality: Guaranteeing the secrecy of delicate information includes a comprehensive methodology that incorporates information classification, access control systems, encryption, secure data storage, access strategies, checking and reviewing, user training, and a robust incident response plan.
 Integrity: Ensuring data integrity includes executing measures that shield data from unapproved change and defilement, ensuring its accuracy and consistency all through its lifecycle. This incorporates processes, technologies, and strategies intended to detect and prevent data altering, as well as mechanisms to check data accuracy.
 Availability: Ensuring the accessibility of network resources is critical for keeping up with continuous access to data and services for students, workforce, and staff. This includes carrying out measures to prevent downtime, immediately recuperate from interruptions, and keep up with optimal performance.
