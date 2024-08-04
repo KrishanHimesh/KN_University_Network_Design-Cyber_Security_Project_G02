@@ -14,6 +14,7 @@ KN University is a prestigious university in Australia with four active campuses
 - [06. IP Addressing and Naming Scheme](Technical_Artifacts/06_IP_Addressing_and_Naming_Scheme/IP_Addressing_and_Naming_Scheme.md)
 - [07. Wired Network Design](Technical_Artifacts/07_Wired_Network_Design/Wired_Network_Design.md)
 - [08. Wireless Network Design](Technical_Artifacts/08_Wireless_Network_Design/Wireless_Network_Design.md)
+- [09. Network Security Plan](Technical_Artifacts/09_Network_Security_Plan/Network_Security_Plan.md)
 - [10. Cloud Integration Plan](Technical_Artifacts/10_Cloud_Integration_Plan/Cloud_Integration_Plan.md)
 - [11. Disaster Recovery and Business Continuity Plan](Technical_Artifacts/11_Disaster_Recovery_and_Business_Continuity_Plan/Disaster_Recovery_and_Business_Continuity_Plan.md)
 - [12. Implementation Plan](Technical_Artifacts/12_Implementation_Plan/Implementation_Plan.md)
