@@ -13,6 +13,7 @@ KN University is a prestigious university in Australia with four active campuses
 - [10. Cloud Integration Plan](Technical_Artifacts/10_Cloud_Integration_Plan/Cloud_Integration_Plan.md)
 - [11. Disaster Recovery and Business Continuity Plan](Technical_Artifacts/11_Disaster_Recovery_and_Business_Continuity_Plan/Disaster_Recovery_and_Business_Continuity_Plan.md)
 - [12. Implementation Plan](Technical_Artifacts/12_Implementation_Plan/Implementation_Plan.md)
+- [13. IoT Integration Plan](Technical_Artifacts/13_IoT_Integration_Plan/IoT_Integration_Plan.md)
 - [14. Network Management Plan](Technical_Artifacts/14_Network_Management_Plan/Network_Management_Plan.md)
 - [15. Network Performance and Optimization Plan](Technical_Artifacts/15_Network_Performance_and_Optimization_Plan/Network_Performance_and_Optimization_Plan.md)
 - [16. Testing and Validation Plan](Technical_Artifacts/16_Testing_and_Validation_Plan/Testing_and_Validation_Plan.md)
