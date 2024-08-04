@@ -2,6 +2,9 @@
 ## Cloud Integration Plan:
 A Cloud Integration Plan outlines how an organization will interface its current IT systems and applications with cloud services. The objective is to guarantee consistent communication and interoperability between on-premises frameworks and cloud-based assets, upgrading activities, versatility, and adaptability.
 
+![Image](https://github.com/user-attachments/assets/bcd4b151-ef4e-4914-b70d-901c2b6339e7)
+
+
 ### Components:
 - Cloud Service Providers:
 There are different cloud service providers in the market i.e. Azure Cloud, IBM Cloud, Google Cloud etc. For this project, Azure Cloud will be used for the demonstration as well as for other purposes. 
