@@ -4,6 +4,9 @@ A Cloud Integration Plan outlines how an organization will interface its current
 
 ![Image](https://github.com/user-attachments/assets/bcd4b151-ef4e-4914-b70d-901c2b6339e7)
 
+With a focus on data management and security to improve the university's Network, the diagram outlines a preferred cloud integration method for KN University. The cloud is used for storing university data to improve access and scalability. Frequent cloud backups guarantee that data may be quickly restored, and a cloud-based disaster recovery strategy continues to function in the event of an emergency. To safeguard sensitive data, university data is encrypted before being stored in the cloud. To guarantee that only authorised individuals can access data and cloud services, strict access controls are in place. The public cloud and the university's on-campus network are connected securely, allowing for seamless data integration and transfer. The primary platform for managing and storing data is the public cloud, with supplementary cloud services available for further capability. By forming partnerships with outside cloud providers, the university gains greater access to specialized resources and capabilities.
+KN University seeks to create a more scalable, secure, and resilient IT environment that can accommodate the expanding requirements of its staff, faculty, and students by putting this cloud integration concept into practice. This project will improve data accessibility, expedite disaster recovery, and guarantee that confidential data is safeguarded in accordance with industry best practices for cloud security.
+
 
 ### Components:
 - Cloud Service Providers:
