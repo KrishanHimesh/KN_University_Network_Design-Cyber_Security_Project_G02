@@ -4,6 +4,8 @@ A Network Management Plan is an essential report intended to guarantee the effec
 
 ![Image2](https://github.com/user-attachments/assets/2c871615-5058-469e-aa01-6f410361d729)
 
+The network management organisation for KN University is depicted in the diagram, along with the methods for network upkeep and monitoring. This organisation aids KN University in maintaining a dependable and secure network by making sure that modifications are carefully handled and that problems are promptly resolved.
+
 ## Components:
 ## Network Configuration Management:
 -  Documentation: Keep up with up-to-date network diagrams and configuration files.
