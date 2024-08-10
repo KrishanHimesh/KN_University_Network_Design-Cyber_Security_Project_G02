@@ -10,7 +10,10 @@ A Network Security Plan ensures the university's network is protected against th
 
   ![Image 5](https://github.com/user-attachments/assets/b310c1f9-6a1e-4210-b721-43778eda24c6)
 
-  
+The KN University network security architecture is shown in the above diagram. The network's first line of defence is perimeter security. The router that links the university's network to the internet is one of its components. By filtering and regulating all data entering and leaving the network, the firewall serves as a security barrier. By limiting access to the network to just safe and approved traffic, this configuration guards against external threats coming from the Internet. The network of the university is shielded from within by internal security. Within the network, data flow is controlled and directed by the Core Switch. An internal firewall protects critical resources by keeping an eye on and managing internal communications. This adds an extra layer of protection. The university stores and maintains its vital data in the Data Centre, which serves as the hub of the network's information systems.
+By using a VPN Gateway, Access Control makes sure that only authorised users can connect to the university's network, even from faraway locations. Utilising a SIEM system to track and examine security activity is known as security management. This helps identify and address possible risks. To improve and maintain its digital services, the institution also makes use of cloud services, which establish connections with outside cloud providers. The process of safeguarding sensitive data is called encryption. Data-at-Rest encryption protects stored data by making sure that, even if someone gains access to it, they are unable to read it without the necessary authorisation. Data-in-Transit Encryption safeguards data while it travels over the network, preventing interception or manipulation while it is being sent from one location to another.
+The figure demonstrates how the various elements of network security are connected to each other and contribute to the overall security of the KN University network.
+
 ## Key Components
 
 ## Firewalls
