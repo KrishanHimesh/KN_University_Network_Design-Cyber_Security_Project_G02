@@ -4,6 +4,7 @@ Ensuring ideal network performance includes a blend of compelling administration
 
 ![Image3](https://github.com/user-attachments/assets/6ee7534b-a994-488c-a3f5-9e393f7c2cd1)
 
+The picture is a schematic for a "Network Performance and Optimization" study at KN University. A strong monitoring system underpins all the efforts, tracking parameters related to network performance, setting off warnings and ensuring prompt problem response to preserve a high standard of network performance and dependability throughout the university.
 
 ## Components:
 ## Network Monitoring:
