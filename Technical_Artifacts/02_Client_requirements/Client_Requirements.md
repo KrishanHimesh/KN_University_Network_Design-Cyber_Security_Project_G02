@@ -50,3 +50,5 @@ KN University is a prestigious university in Australia with Melbourne, Sydney, B
 - Support and Training: Create awareness for the various network users so they can exploit the available resources.
 
 Through such aspects of business and technical concern, the network design will help KN University to provide a network infrastructure that will favour its objectives of securing an effective, secure, and efficient network that will support and improve the academic/administrative end user’s experience.
+
+[Back to home](../../)
