@@ -26,14 +26,16 @@ KN University network design project involves designing and deploying a high-per
 ### 2.1	Network Topology Diagrams
 Network topology diagrams offer the visualisation of the general structure of the network by indicating how certain network elements are logically connected and interact with each other to create a working KN University Network. The diagrams include physical and logical topologies with the building layouts of campuses. 
 
--####	Physical Topology: 
+####	Physical Topology: 
+
 Illustrates physical mapping of the complete network, including the physical location of four campuses (Fig 2.1.1), floor plans, and the devices, including routers, switches and access points across the campuses. This diagram also shows where devices are physically located and the redundancy built into the network to achieve high availability.
 
  ![image](https://github.com/user-attachments/assets/92458a4a-232b-4fe8-9159-011931443675)
 
 *Figure 2.1.1 Physical Topology Across Campuses (Google Maps, 2024)*
 
--####	Logical Topology: 
+####	Logical Topology: 
+
 Logical topology (Figure 2.1.2) visualises all the logical connections within the KN University network using layers, such as the Core, Distribution, and Access layers. It illustrates all the connections of the network devices and end nodes. The logical topology assists in understanding the flow and the regulation of data across different network sections.
 
  ![image](https://github.com/user-attachments/assets/cce18537-d42e-49c0-a286-57bd29104b3d)
@@ -42,28 +44,39 @@ Logical topology (Figure 2.1.2) visualises all the logical connections within th
 
 These diagrams are important for the identification of the structure of the network and are described in detail in the [Network Topology Diagrams](https://github.com/KrishanHimesh/KN_University_Network_Design-Cyber_Security_Project_G02/blob/main/Technical_Artifacts/05_Network_Topology_Diagrams/Network_Topology_Diagrams.md) technical artefact.
 
-## 2.2	Wired Network Design 
+### 2.2	Wired Network Design 
 The wired network infrastructure forms the main framework and the backbone of the university’s network, providing reliable, high-speed connectivity across all campuses. The design follows a hierarchical structure consisting of core, distribution, and access layers. 
-####-	Core Layer: 
+####	Core Layer: 
+
 The Core Layer is more centralised, and all the campuses are connected through two high-speed ISP links to ensure availability. It is designed to support a high traffic volume and ensure that the network always has the necessary redundancy to ensure the continuity of the network operations. Core Routers are equipped with two power sources and have redundant connection links to minimize a single failure point.
-####-	Distribution Layer: 
+
+####	Distribution Layer: 
+
 Distribution switches are installed on every campus to connect with the core layer routers. Two distribution switches are shown in the Logical Topology Diagram to achieve redundancy and availability. These switches aggregate traffic from the access layer and control the routing between VLANs and users.
 
 
-####-	Access Layer: 
+####	Access Layer: 
+
 The access layer contains switches that connect to the end devices, such as computers, printers, and servers. The access layer switches are installed on every floor to provide complete coverage and functionality.
 
 The wired network design ensures that the network infrastructure supports the current demands and is capable of scalability to accommodate the institution's future growth. Additional information on the wired network design plan and the specific switch type and placement is provided in the [Wired Network Design](https://github.com/KrishanHimesh/KN_University_Network_Design-Cyber_Security_Project_G02/blob/main/Technical_Artifacts/07_Wired_Network_Design/Wired_Network_Design.md) technical artefact.
 
-2.3	Wireless Network Design
+### 2.3	Wireless Network Design
 The overall design of the wireless network must reflect the need for mobility and connectivity across all the campuses. The design leverages the latest Wi-Fi 6E technology to provide high-speed, high-density wireless access.
-•	Access Points (APs): 
+
+####	Access Points (APs): 
+
 Cisco Catalyst 9136 Wi-Fi 6E Access Points are installed across the campuses to provide maximum coverage. These APs are designed to handle high-user density areas such as lecture halls and libraries and are created to deliver high performance irrespective of the higher demand. 
-•	Wireless Controllers: 
+
+####	Wireless Controllers:
+
 Centralized Cisco Catalyst 9800-80 Wireless Controllers control the wireless access points, which offer functionalities like RF Management, Mobility, and Security. It is crucial to have these controllers to maintain the integrity and performance of the wireless network.
-•	VLAN Segmentation: 
+
+####	VLAN Segmentation: 
+
 The wireless network is segmented into multiple VLANs according to users such as students, academic staff, Non-academic staff and guests, and services such as IoT devices and printers. This segmentation helps improve security within the organisation and ensures that every user group is granted permissions according to the access control policy. 
-The document includes the precise assessment of the access point location, VLAN structure, and security measures. The technical artefact of ‘group02-wireless-network-design’ shows all the design details. 
+
+The document includes the precise assessment of the access point location, VLAN structure, and security measures. The technical artefact of [Wireless Network Design](https://github.com/KrishanHimesh/KN_University_Network_Design-Cyber_Security_Project_G02/blob/main/Technical_Artifacts/08_Wireless_Network_Design/Wireless_Network_Design.md) shows all the design details. 
 
 2.4	IP Addressing and Naming Scheme
 KN University IP addressing and naming plans offer all campuses a logical and efficient network resource management strategy. The scheme is based on user communities, and specific subnets are designated for students, academic staff, non-academic staff and guests. This segmentation not only improves security but also facilitates network management and troubleshooting.
