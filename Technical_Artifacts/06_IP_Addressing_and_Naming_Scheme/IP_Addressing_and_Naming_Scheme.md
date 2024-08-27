@@ -80,3 +80,14 @@ Format: [Campus]-[Floor]- [Device Type]- [(**Location Number). Device Number]
 -	Brisbane Floor 3 IoT Device: BNE-03-IOT-01
 -	Adelaide Floor 4 IoT Device: ADL-04-IOT-01
 
+#### Common Devices (Printers, Wireless Displays)
+-	Melbourne Floor 1 Printer: MEL-01-PRN-01
+-	Sydney Floor 2 Printer: SYD-02-PRN-01
+-	Brisbane Floor 3 Printer: BNE-03-PRN-01
+-	Adelaide Floor 4 Printer: ADL-04-PRN-01
+-	Melbourne Floor 1 Wireless Display: MEL-01-WD-01
+-	Sydney Floor 2 Wireless Display: SYD-02-WD-01
+-	Brisbane Floor 3 Wireless Display: BNE-03-WD-01
+-	Adelaide Floor 4 Wireless Display: ADL-04-WD-01
+
+
