@@ -43,15 +43,17 @@ Format: [Campus]-[Floor]- [Device Type]- [(**Location Number). Device Number]
 
 *Examples*
 #### Routers
-•	Melbourne Floor 1 Router: MEL-01-RTR-01
-•	Sydney Floor 2 Router: SYD-02-RTR-01
-•	Brisbane Floor 3 Router: BNE-03-RTR-01
-•	Adelaide Floor 4 Router: ADL-04-RTR-01
-Switches
-•	Melbourne Floor 1 Switch: MEL-01-SW-01
-•	Sydney Floor 2 Switch: SYD-02-SW-01
-•	Brisbane Floor 3 Switch: BNE-03-SW-01
-•	Adelaide Floor 4 Switch: ADL-04-SW-01
+-	Melbourne Floor 1 Router: MEL-01-RTR-01
+-	Sydney Floor 2 Router: SYD-02-RTR-01
+-	Brisbane Floor 3 Router: BNE-03-RTR-01
+-	Adelaide Floor 4 Router: ADL-04-RTR-01
+
+
+#### Switches
+-	Melbourne Floor 1 Switch: MEL-01-SW-01
+-	Sydney Floor 2 Switch: SYD-02-SW-01
+-	Brisbane Floor 3 Switch: BNE-03-SW-01
+-	Adelaide Floor 4 Switch: ADL-04-SW-01
 
 
 
