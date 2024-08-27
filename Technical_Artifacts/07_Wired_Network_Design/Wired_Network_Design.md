@@ -39,18 +39,18 @@ Cat6a cables will connect access layer switches to end devices with up to 10 Gbp
 Every campus will have a structural hierarchy, with the core, distribution, and access layers. The core layer will link all campuses through a Virtual Private Network, while the distribution and access layer will handle internal campus traffic.
 -	Redundancy and Failover: 
 Redundancy will be achieved at the core and distribution layers through links and devices to eliminate a single point of failure in the network.
-
-•	VLAN Segmentation: 
+-	VLAN Segmentation: 
 The VLANs will segment the network according to organisational entities (students, Admin staff, Lecturers) and services required (management, IoT devices, etc.). This segmentation enables high levels of security and makes the network's work smooth.
-Security Implementation
-•	Access Control Lists (ACLs): 
+
+## Security Implementation
+-	Access Control Lists (ACLs): 
 ACLs will manage traffic between VLANs and limit access to critical resources at the distribution and core layer.
-•	Network Segmentation: 
+-	Network Segmentation: 
 To minimize the risk of unauthorized access, the network will be segmented using VLANs to accommodate different user groups and services provided at different VLANS.
-•	Firewalls: 
+-	Firewalls: 
 Firewalls will be positioned at the edge of the network to filter external threats and allow campus network users to access the internet securely.
 
-Implementation Plan
+## Implementation Plan
 **Step 1:** Purchase and install core and distribution switches at each campus’s data centre.
 **Step 2:** Installation of fibre optic cables to provide the backbone for core and distribution switches across the campuses.
 **Step 3:** Position the access layer switches within the building while connecting them to the distribution layer. Also, use them to provide wired access to end devices.
