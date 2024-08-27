@@ -30,7 +30,7 @@ These will be further split into VLANs to increase the network's security level.
 
 ## Wi-Fi Access Points as Extenders
 
-
+Access points (APs) can be configured to operate in a way that enhances their ability to act as range extenders to ensure full coverage of the university campuses. These APs can assign the same IP range for the user community so that devices do not have to change their IPs as they move around the campus, even floors. 
 
 
 
