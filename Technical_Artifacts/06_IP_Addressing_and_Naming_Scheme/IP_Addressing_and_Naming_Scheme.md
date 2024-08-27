@@ -32,10 +32,10 @@ These will be further split into VLANs to increase the network's security level.
 
 Access points (APs) can be configured to operate in a way that enhances their ability to act as range extenders to ensure full coverage of the university campuses. These APs can assign the same IP range for the user community so that devices do not have to change their IPs as they move around the campus, even floors. 
 
-Naming Scheme
+## Naming Scheme
 To simplify network management and promote the practice of standardization, the naming convention will comprise the type of device, campus, floor number, and number. 
 
-Naming Convention
+### Naming Convention
 Format: [Campus]-[Floor]- [Device Type]- [(**Location Number). Device Number]
 
 **Classroom, office or Lab number(Only for Workstations)
