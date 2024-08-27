@@ -23,3 +23,16 @@ These will be further split into VLANs to increase the network's security level.
 ## VPN Implementation
 
 ![image](https://github.com/user-attachments/assets/627e96b7-6cae-4d3f-bdaa-c8a8946b75ff)
+
+## Access Control Implementation- Firewall Rules
+
+![image](https://github.com/user-attachments/assets/03c901c4-e18f-452c-b8c2-e84f5085442c)
+
+## Wi-Fi Access Points as Extenders
+
+
+
+
+
+
+
