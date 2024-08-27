@@ -52,7 +52,11 @@ Firewalls will be positioned at the edge of the network to filter external threa
 
 ## Implementation Plan
 **Step 1:** Purchase and install core and distribution switches at each campus’s data centre.
+
 **Step 2:** Installation of fibre optic cables to provide the backbone for core and distribution switches across the campuses.
+
 **Step 3:** Position the access layer switches within the building while connecting them to the distribution layer. Also, use them to provide wired access to end devices.
+
 **Step 4:** VLANs, ACLs, and routing protocols should be configured across all the network elements for the correct segmentation and security measures.
+
 **Step 5:** Test and validate the network to ensure it achieved or exceeded the intended performance, redundancy and security standards.
