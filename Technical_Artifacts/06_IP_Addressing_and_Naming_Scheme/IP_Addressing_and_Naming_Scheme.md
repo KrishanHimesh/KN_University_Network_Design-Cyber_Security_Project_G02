@@ -21,3 +21,5 @@ These will be further split into VLANs to increase the network's security level.
 ![image](https://github.com/user-attachments/assets/37ee5eb6-04ac-440b-bbb0-27ed0f922c79)
 
 ## VPN Implementation
+
+![image](https://github.com/user-attachments/assets/627e96b7-6cae-4d3f-bdaa-c8a8946b75ff)
