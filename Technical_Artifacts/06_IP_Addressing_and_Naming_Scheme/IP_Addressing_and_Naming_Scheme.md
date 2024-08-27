@@ -56,4 +56,15 @@ Format: [Campus]-[Floor]- [Device Type]- [(**Location Number). Device Number]
 -	Adelaide Floor 4 Switch: ADL-04-SW-01
 
 
+#### Access Points
+-	Melbourne Floor 1 Access Point: MEL-01-AP-01
+-	Sydney Floor 2 Access Point: SYD-02-AP-01
+-	Brisbane Floor 3 Access Point: BNE-03-AP-01
+-	Adelaide Floor 4 Access Point: ADL-04-AP-01
+
+#### Servers
+-	Melbourne Floor 1 Server: MEL-01-SVR-01
+-	Sydney Floor 2 Server: SYD-02-SVR-01
+-	Brisbane Floor 3 Server: BNE-03-SVR-01
+-	Adelaide Floor 4 Server: ADL-04-SVR-01
 
