@@ -40,19 +40,20 @@ Logical topology (Figure 2.1.2) visualises all the logical connections within th
 
 *Figure 2.1.2 Logical topology of KN University*
 
-These diagrams are important for the identification of the structure of the network and are described in detail in the [group02-network-topology-diagrams](https://github.com/KrishanHimesh/KN_University_Network_Design-Cyber_Security_Project_G02/blob/main/Technical_Artifacts/05_Network_Topology_Diagrams/Network_Topology_Diagrams.md) technical artefact.
+These diagrams are important for the identification of the structure of the network and are described in detail in the [Network Topology Diagrams](https://github.com/KrishanHimesh/KN_University_Network_Design-Cyber_Security_Project_G02/blob/main/Technical_Artifacts/05_Network_Topology_Diagrams/Network_Topology_Diagrams.md) technical artefact.
 
-2.2	Wired Network Design 
+## 2.2	Wired Network Design 
 The wired network infrastructure forms the main framework and the backbone of the university’s network, providing reliable, high-speed connectivity across all campuses. The design follows a hierarchical structure consisting of core, distribution, and access layers. 
-•	Core Layer: 
+####-	Core Layer: 
 The Core Layer is more centralised, and all the campuses are connected through two high-speed ISP links to ensure availability. It is designed to support a high traffic volume and ensure that the network always has the necessary redundancy to ensure the continuity of the network operations. Core Routers are equipped with two power sources and have redundant connection links to minimize a single failure point.
-•	Distribution Layer: 
+####-	Distribution Layer: 
 Distribution switches are installed on every campus to connect with the core layer routers. Two distribution switches are shown in the Logical Topology Diagram to achieve redundancy and availability. These switches aggregate traffic from the access layer and control the routing between VLANs and users.
 
 
-•	Access Layer: 
+####-	Access Layer: 
 The access layer contains switches that connect to the end devices, such as computers, printers, and servers. The access layer switches are installed on every floor to provide complete coverage and functionality.
-The wired network design ensures that the network infrastructure supports the current demands and is capable of scalability to accommodate the institution's future growth. Additional information on the wired network design plan and the specific switch type and placement is provided in the ‘group02-wired-network-design’ technical artefact.
+
+The wired network design ensures that the network infrastructure supports the current demands and is capable of scalability to accommodate the institution's future growth. Additional information on the wired network design plan and the specific switch type and placement is provided in the [Wired Network Design](https://github.com/KrishanHimesh/KN_University_Network_Design-Cyber_Security_Project_G02/blob/main/Technical_Artifacts/07_Wired_Network_Design/Wired_Network_Design.md) technical artefact.
 
 2.3	Wireless Network Design
 The overall design of the wireless network must reflect the need for mobility and connectivity across all the campuses. The design leverages the latest Wi-Fi 6E technology to provide high-speed, high-density wireless access.
