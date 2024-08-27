@@ -60,3 +60,8 @@ Firewalls will be positioned at the edge of the network to filter external threa
 **Step 4:** VLANs, ACLs, and routing protocols should be configured across all the network elements for the correct segmentation and security measures.
 
 **Step 5:** Test and validate the network to ensure it achieved or exceeded the intended performance, redundancy and security standards.
+
+## Wired Network Equipment by Campus 
+
+![image](https://github.com/user-attachments/assets/af006ff2-a903-49ae-81b9-e450122f4a5f)
+
