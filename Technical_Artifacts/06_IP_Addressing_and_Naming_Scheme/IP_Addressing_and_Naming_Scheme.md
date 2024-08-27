@@ -8,3 +8,5 @@ The IP addressing and the subnetting required for security purposes and for the 
 ![image](https://github.com/user-attachments/assets/e9e83359-c7cc-47ec-b5a1-e6651baae4bd)
 
 ### Common Network Services
+![image](https://github.com/user-attachments/assets/c5acde20-d15a-441e-96ce-452c5664063e)
+
