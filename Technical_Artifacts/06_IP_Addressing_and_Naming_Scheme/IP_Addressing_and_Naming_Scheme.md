@@ -10,3 +10,7 @@ The IP addressing and the subnetting required for security purposes and for the 
 ### Common Network Services
 ![image](https://github.com/user-attachments/assets/c5acde20-d15a-441e-96ce-452c5664063e)
 
+## VLAN Implementation
+These will be further split into VLANs to increase the network's security level. Every user community will be assigned different VLANs for wireless and common devices.
+### VLAN Configuration by User Community
+![Uploading image.png…]()
