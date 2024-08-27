@@ -7,6 +7,7 @@ In today’s academic environment, all educational and administrative processes 
  ![image](https://github.com/user-attachments/assets/93b36a78-7310-45e5-815c-11ee27e9ae5a)
 
 *Figure 1.1 KN University (DaLLE, 2024)*
+
 The project's main objective is to build a highly available, redundant, secure, high-standard network for KN University. It can meet the university’s current operational requirements and potentially address future requirements. It covers the wired and the wireless infrastructure and integrates with the latest network technology to enhance robust performance, security and scalability. 
 
 In addition to the basic computer networking components, the project integrates IoT devices as an essential component that increases client experiences, monitors and controls environment standards, and strengthens security. Cloud computing capacities are also embedded in the design to provide flexible and scalable resources that support the university’s academic and organisational activities.
