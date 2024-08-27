@@ -40,7 +40,7 @@ Logical topology (Figure 2.1.2) visualises all the logical connections within th
 
 *Figure 2.1.2 Logical topology of KN University*
 
-These diagrams are important for the identification of the structure of the network and are described in detail in the [group02-network-topology-diagrams](./Technical_Artifacts/05_Network_Topology_Diagrams/Network_Topology_Diagrams.md) technical artefact.
+These diagrams are important for the identification of the structure of the network and are described in detail in the [group02-network-topology-diagrams](https://github.com/KrishanHimesh/KN_University_Network_Design-Cyber_Security_Project_G02/blob/main/Technical_Artifacts/05_Network_Topology_Diagrams/Network_Topology_Diagrams.md) technical artefact.
 
 2.2	Wired Network Design 
 The wired network infrastructure forms the main framework and the backbone of the university’s network, providing reliable, high-speed connectivity across all campuses. The design follows a hierarchical structure consisting of core, distribution, and access layers. 
