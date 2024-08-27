@@ -17,7 +17,8 @@ KN University is a prestigious university in Australia with four active campuses
   4.	School of Education and Arts
 - Number of courses offer: 23
 
- 
+
+ 
 ## Campuses
 ### 1.	Melbourne Campus
 - Address: 120 Spencer St, Melbourne VIC 3000
