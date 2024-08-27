@@ -7,3 +7,4 @@ The IP addressing and the subnetting required for security purposes and for the 
 ### User Community Subnets
 ![image](https://github.com/user-attachments/assets/e9e83359-c7cc-47ec-b5a1-e6651baae4bd)
 
+### Common Network Services
