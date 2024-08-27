@@ -65,3 +65,15 @@ Firewalls will be positioned at the edge of the network to filter external threa
 
 ![image](https://github.com/user-attachments/assets/af006ff2-a903-49ae-81b9-e450122f4a5f)
 
+### Summary of Total Equipment
+-	**Total Core Layer Routers (Cisco ISR 4451-X): 8**
+-	**Total Distribution Layer Switches (Cisco Catalyst 9400-48U): 13**
+-	**Total Access Layer Switches (Cisco Catalyst 9300-48P): 46**
+-	**Total Firewalls (Cisco Firepower 2100 Series): 8**
+### Key Considerations:
+-	Core Layer: Both campuses utilize the core layer with two Cisco ISR 4451-X routers for redundancy and failover capability.
+-	Distribution Layer: Distribution layer switches are Cisco Catalyst 9400-48U switches, of which each campus may contain two and above depending on its size and demand.
+-	Access Layer: Each campus needs connectivity to the end devices on the various floors, and the Cisco Catalyst 9300-48P switches provide this.
+-	Firewalls: There are several campuses, and to support and secure all the campuses, the Cisco Firepower 2100 series firewalls have been implemented
+
+
