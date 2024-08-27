@@ -18,4 +18,6 @@ These will be further split into VLANs to increase the network's security level.
 
 ### VLAN Configuration by Common Services
 
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/37ee5eb6-04ac-440b-bbb0-27ed0f922c79)
+
+## VPN Implementation
