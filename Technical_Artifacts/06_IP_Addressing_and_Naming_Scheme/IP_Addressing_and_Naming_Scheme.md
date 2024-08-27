@@ -90,4 +90,13 @@ Format: [Campus]-[Floor]- [Device Type]- [(**Location Number). Device Number]
 -	Brisbane Floor 3 Wireless Display: BNE-03-WD-01
 -	Adelaide Floor 4 Wireless Display: ADL-04-WD-01
 
+## VPN Tunnel Configuration
+VPN tunnels will be established using the following steps to connect all four campuses securely.
+
+1.	Configure VPN Gateways: Configure VPN gateways in each campus with the provided subnets in the internet section.
+2.	Create VPN Tunnels: Set up site-to-site VPN tunnels to the campuses through the internet connection.
+3.	Secure Communication: Protect data transmitted between campuses by encrypting them to maintain confidentiality and content integrity.
+4.	Monitor and Manage: Conduct frequent checks on the network traffic and performance of active VPN connections.
+
+The issued IP addressing and naming scheme offers a more streamlined approach that accommodates KN University, with each building having multiple floors for each campus. By requiring larger subnets (/22), the university can meet the growing numbers of devices and people connected to the networks, thus providing a more stable network for the university. The coherent naming scheme also makes management, security, and resolution of issues across the network easy to handle.
 
