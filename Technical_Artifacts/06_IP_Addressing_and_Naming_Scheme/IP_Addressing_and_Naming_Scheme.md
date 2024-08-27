@@ -68,3 +68,15 @@ Format: [Campus]-[Floor]- [Device Type]- [(**Location Number). Device Number]
 -	Brisbane Floor 3 Server: BNE-03-SVR-01
 -	Adelaide Floor 4 Server: ADL-04-SVR-01
 
+#### Workstations
+-	Melbourne Floor 1 Workstation: MEL-01-WS-01.01
+-	Sydney Floor 2 Workstation: SYD-02-WS-2.01
+-	Brisbane Floor 3 Workstation: BNE-03-WS-3.01
+-	Adelaide Floor 4 Workstation: ADL-04-WS-4.01
+
+#### IoT Devices
+-	Melbourne Floor 1 IoT Device: MEL-01-IOT-01
+-	Sydney Floor 2 IoT Device: SYD-02-IOT-01
+-	Brisbane Floor 3 IoT Device: BNE-03-IOT-01
+-	Adelaide Floor 4 IoT Device: ADL-04-IOT-01
+
