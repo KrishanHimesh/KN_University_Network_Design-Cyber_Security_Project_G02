@@ -16,4 +16,70 @@ This diagram shows the location of the network components, including the routers
 -	Campus LANs: Every building within the campuses with floors linked by routers and switches
 
 ![image](https://github.com/user-attachments/assets/c7320e39-fcd4-499b-92b6-cebb14b22fcb)
-``Figure 1.1 Four Campuses Connect each other via Central WAN (Google Maps, 2024)``
+
+*Figure 1.1 Four Campuses Connect each other via Central WAN (Google Maps, 2024)*
+
+
+### Melbourne Campus
+The following screenshots visualised the Physical Network Topology using the Cisco Packet Tracer. All Campuses have similar floor layouts from level one to level three. The rest of the levels are similar to the floor layout of floor three. The following screenshot shows the first three floors of the Melbourne Campus.
+
+![image](https://github.com/user-attachments/assets/f0e37bbe-10d1-4d84-9265-f75ea2e3ac53)
+ 
+*Figure 1.2 Melbourne Campus (Google Maps, 2024)*
+
+#### Floor One (Lobby)
+
+The demonstration of the Physical topology of the floor included the front desk, student support office, four administration offices, Intermediate Distribution Frame (IDF) and auditorium. The network layout can be identified if the Packet Tracer File. The purple colour shows the heat map of the wireless network coverage across floor one. 
+ 
+Figure 1.3 Front desk and IDF
+
+ 
+ 
+Figure 1.4 Floor One Physical Layout 
+
+Floor Two (Library and Entertainment area)
+Floor two has the library, two Administration offices, the Main computer lab, the Entertainment area and the Main Distribution Frame. The following screenshots show the layout of Floor Two. 
+ 
+Figure 1.5 Administration Office
+ 
+Figure 1.6 Main Distribution Frame
+ 
+Figure 1.7 Floor Two Layout
+Floor Three (Labs, offices and Lecture rooms)
+Melbourne Campus has six floors. Floors three to six have the same layout as floor three. Floor three has an Intermediate Distribution Frame (IDF), Computer Labs and Lecture Rooms. The following Screenshot shows the floor layout and layout of the Lecture Rooms and Computer Labs. 
+ 
+Figure 1.8 Physical Topology Inside a Computer Lab
+ 
+Figure 1.9 Physical Topology inside a Lecture room
+ 
+Figure 1.9 Intermediate Distribution Frame
+ 
+Figure 1.10 Floor Three Physical Layout 
+
+ 
+2. Logical Network Topology Diagram
+This diagram shows the flow and structure of subnet and VLAN components of the network along with the IP addressing plan in the organization, firewall regulation and VPN network.
+Logical Network Topology Elements:
+•	Subnets: Defined individual subnets for each floor of each campus. Used larger subnets such as /22 /23 to accommodate many devices. 
+•	VLAN: VLANs are used to segment network traffic. 
+•	IP Address Schemes: IP address range for the devices.
+•	Firewall Rules: Security measures to regulate communication in the network.
+•	VPN Connections: Ensure safe connectivity to the university’s network from a remote environment.
+•	WAN: The central network that interconnects all campuses and allows access to the Internet.
+•	Data Flow: Logical path of transferring data between the campuses and the Internet.
+•	Central WAN: Connects all campuses.
+•	Internet Gateway: Access to outside networks or external communication which are protected by firewalls.
+ 
+Figure 2.1 Logical Topology of the KN University
+
+
+ 
+Figure 2.2 Logical Topology of Floor One
+ 
+Figure 2.3 Logical Topology of Floor Two
+ 
+Figure 2.4 Logical Topology of Floor Three
+ 
+Figure 2.5 Logical Topology of Adelaide, Brisbane and Sydney campuses
+
+These modified diagrams provide an overall understanding of the physical and logical topology of the networking structure for KN University. These larger subnets will make it easier for the university to handle large numbers of devices and users without disrupting the network stability. The diagrams give clear recommendations, procedures, and schedules for constructing, deploying, and sustaining the network to serve the university’s educational and administrative roles.
