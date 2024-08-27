@@ -26,14 +26,14 @@ KN University network design project involves designing and deploying a high-per
 ### 2.1	Network Topology Diagrams
 Network topology diagrams offer the visualisation of the general structure of the network by indicating how certain network elements are logically connected and interact with each other to create a working KN University Network. The diagrams include physical and logical topologies with the building layouts of campuses. 
 
-####-	Physical Topology: 
+-####	Physical Topology: 
 Illustrates physical mapping of the complete network, including the physical location of four campuses (Fig 2.1.1), floor plans, and the devices, including routers, switches and access points across the campuses. This diagram also shows where devices are physically located and the redundancy built into the network to achieve high availability.
 
  ![image](https://github.com/user-attachments/assets/92458a4a-232b-4fe8-9159-011931443675)
 
 *Figure 2.1.1 Physical Topology Across Campuses (Google Maps, 2024)*
 
-####-	Logical Topology: 
+-####	Logical Topology: 
 Logical topology (Figure 2.1.2) visualises all the logical connections within the KN University network using layers, such as the Core, Distribution, and Access layers. It illustrates all the connections of the network devices and end nodes. The logical topology assists in understanding the flow and the regulation of data across different network sections.
 
  ![image](https://github.com/user-attachments/assets/cce18537-d42e-49c0-a286-57bd29104b3d)
