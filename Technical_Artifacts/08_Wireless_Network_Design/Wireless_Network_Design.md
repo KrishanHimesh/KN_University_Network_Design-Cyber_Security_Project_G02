@@ -5,7 +5,7 @@ The wireless network design for KN University is developed based on the top-down
 
 ## Requirements Analysis
 
--	Coverage Requirements:
+###	Coverage Requirements:
 The wireless network should cover all indoor areas such as lecture rooms, classes, offices, libraries, and selected parts of outdoor spaces like the compound and fields.
 -	User Requirements: 
 The network must be capable of providing service in areas of high user density and where a user may have multiple devices (laptops, smartphones, tablets), all needing to access the network and providing high availability.
