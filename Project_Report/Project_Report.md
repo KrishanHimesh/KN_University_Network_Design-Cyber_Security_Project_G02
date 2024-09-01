@@ -127,7 +127,7 @@ The IoT gadgets at KN College incorporate energy-effective brilliant lighting sy
 
  ![image](https://github.com/user-attachments/assets/e87ef527-c11c-43f3-a1e7-4c0284feaa88)
 
-Figure 3.7.1 IoT Integration Plan of KN University
+*Figure 3.7.1 IoT Integration Plan of KN University*
 
 ####	Network Division: 
 A committed IoT VLAN is set up at KN College to isolate IoT traffic from the fundamental network. This further develops data transfer capacity management to keep significant applications moving along as expected and increments security by preventing likely dangers from spreading. Since customized policies are permitted in this arrangement, overseeing IoT gadgets is additionally made more straightforward. To diminish security dangers, firewall rules confine connections between the IoT VLAN and significant network fragments. To shield essential network services, these guidelines force severe limitations by allowing just vital traffic, denying unnecessary protocols, and looking out for oddities.
