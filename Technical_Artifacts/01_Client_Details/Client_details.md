@@ -24,8 +24,6 @@ KN University is a prestigious university in Australia with four active campuses
 - Address: 120 Spencer St, Melbourne VIC 3000
 - Number of buildings: 01
 - Number of floors: 06
-- Number of Lecture halls:
-- Number of computer labs:
 - Main facilities:
   1.	Lecture Halls
   2.	Engineering Laboratories
@@ -38,8 +36,6 @@ KN University is a prestigious university in Australia with four active campuses
 - Address: 400 Kent St, Sydney NSW 2000
 - Number of buildings: 01
 - Number of floors: 05
-- Number of Lecture halls:
-- Number of computer labs:
 - Main facilities: 
   1.	Lecture Halls
   2.	Engineering Laboratories
@@ -53,8 +49,6 @@ KN University is a prestigious university in Australia with four active campuses
 - Address: 160 Ann St, Brisbane City, QLD 4000
 - Number of buildings: 01
 - Number of floors: 04
-- Number of Lecture halls:
-- Number of computer labs:
 - Main facilities: 
   1.	Lecture Halls
   2.	Engineering Laboratories
@@ -68,8 +62,6 @@ KN University is a prestigious university in Australia with four active campuses
 - Address: 44 B26, Wayville, SA 5034
 - Number of buildings: 01
 - Number of floors: 04
-- Number of Lecture halls:
-- Number of computer labs:
 - Main facilities: 
   1.	Lecture Halls
   2.	Engineering Laboratories
