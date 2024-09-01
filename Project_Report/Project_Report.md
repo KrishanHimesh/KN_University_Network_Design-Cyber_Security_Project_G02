@@ -1,4 +1,4 @@
-# Project Report
+![image](https://github.com/user-attachments/assets/739dca43-71cb-461e-96f3-96a42723bd13)# Project Report
 
 ##	Introduction
 
@@ -95,48 +95,52 @@ A network security plan for KN University is intended to safeguard the universit
  ![image](https://github.com/user-attachments/assets/9f297a49-1c32-41ff-9784-58025eeb9c3a)
 
 *Figure 3.5.1 Network Security Plan of KN University*
-•	Firewalls: 
-At KN University, firewalls erect a wall between trustworthy internal networks and untrusted external ones to guard against unwanted access and online threats. These can be internal firewalls that divide and guard critical network sections or perimeter firewalls that guard the network's edge. In addition, this KN University network has two firewalls, i.e., a physical firewall and a cloud firewall.
-•	IDPS: 
-Intrusion Detection and Prevention Systems (IDPS) notify university administrators of potentially dangerous activity and take automated measures to reduce them by identifying and stopping them within a network or system. They can be host-based, which concentrates on a single device, or network-based, which tracks activity throughout the network.
-•	VPN: 
-A virtual private network (VPN) encrypts all university data as it is being transmitted to guarantee its confidentiality and allow for safe remote access to a network. VPNs is used to securely link numerous networks together (Site-to-Site) or to enable remote access to a private network for a single user (Client-to-Site). 
-•	SIEM: 
-Security Information and Event Management (SIEM) offers ongoing examination and response to security events by joining log management, event connection, and incident response. By giving concentrated permeability and working with ideal identification and reaction to potential dangers, the network security of KN University has moved along.
-•	Encryption: 
-Encryption like AES-256 is utilized, which gives strong areas of strength against cyber dangers, guaranteeing the secrecy and security of information sent over conceivably uncertain networks. Besides, HTTPS is likewise utilized for the security of a network.
 
-2.6	Cloud Integration Plan
+####	Firewalls: 
+At KN University, firewalls erect a wall between trustworthy internal networks and untrusted external ones to guard against unwanted access and online threats. These can be internal firewalls that divide and guard critical network sections or perimeter firewalls that guard the network's edge. In addition, this KN University network has two firewalls, i.e., a physical firewall and a cloud firewall.
+####	IDPS: 
+Intrusion Detection and Prevention Systems (IDPS) notify university administrators of potentially dangerous activity and take automated measures to reduce them by identifying and stopping them within a network or system. They can be host-based, which concentrates on a single device, or network-based, which tracks activity throughout the network.
+####	VPN: 
+A virtual private network (VPN) encrypts all university data as it is being transmitted to guarantee its confidentiality and allow for safe remote access to a network. VPNs link numerous networks together (Site-to-Site) securely or enable remote access to a private network for a single user (Client-to-Site). 
+####	SIEM: 
+Security Information and Event Management (SIEM) offers ongoing examination and response to security events by joining log management, event connection, and incident response. By giving concentrated permeability and working with ideal identification and reaction to potential dangers, the network security of KN University has moved along.
+####	Encryption: 
+Encryption like AES-256 is utilized, which strengthens against cyber dangers, guaranteeing the secrecy and security of information sent over conceivably uncertain networks. Besides, HTTPS is utilized to secure a network.
+
+### 2.6	Cloud Integration Plan
 A Cloud Integration Plan for KN University Network guarantees consistent communication and interoperability between on-premises frameworks and cloud administrations to improve operations, versatility, and flexibility.
  Figure 3.6.1 Network Security Plan of KN University
 
-•	Cloud Service Provider: 
-Various providers like Azure Cloud, IBM Cloud, and Google Cloud offer cloud services. For this project, Azure Cloud will be used for both demonstration and other purposes.
-•	Cloud Integration Strategy: 
+####	Cloud Service Provider: 
+Various providers like Azure Cloud, IBM Cloud, and Google Cloud offer cloud services. Azure Cloud will be used for demonstration and other purposes for this project.
+####	Cloud Integration Strategy: 
 The Hybrid Cloud Model consolidates on-premises infrastructure with public cloud administrations to establish a unified environment, upgrading data portability, disaster recuperation, and consistency. A Cloud Gateway works with a secure network between on-premises networks and cloud benefits, overseeing and safeguarding the data of KN University. API is utilized as a concentrated gateway for controlling programming interface demands, executing safety measures, and handling versioning, with consistent checking and documentation to guarantee effective reconciliation. 
-•	Security and Consistency: 
-User authentication is used to enhance security with multi-factor authentication (MFA) for universities. Using Role-Based Access Control (RBAC) and Least Privilege, access control policies define and enforce user access. IAM roles are assigned based on job functions to minimize unauthorized access, while directory services integration manages identities across environments. Data is encrypted both in transit (using TLS) and at rest with robust encryption methods, with key management systems (KMS) overseeing encryption key handling. Data masking reduces exposure risk while maintaining usability.
-•	Backup and Redundancy: 
+####	Security and Consistency: 
+User authentication enhances security with multi-factor authentication (MFA) for universities. Using Role-Based Access Control (RBAC) and Least Privilege, access control policies define and enforce user access. IAM roles are assigned based on job functions to minimize unauthorized access, while directory services integration manages identities across environments. Data is encrypted in transit (using TLS) and at rest with robust encryption methods, with key management systems (KMS) overseeing encryption key handling. Data masking reduces exposure risk while maintaining usability.
+####	Backup and Redundancy: 
 For KN University, maintaining data backups protects against loss from deletion, corruption, or system failures by using automated plans and cloud storage. As per the design, there is only one backup on this network. Redundant systems guarantee continuous operation, while high accessibility arrangements like clustering decrease downtime. Regional redundancy shields against site-explicit issues by storing backups and systems in different geographic areas.
 
-2.7	IoT Integration Plan
+### 2.7	IoT Integration Plan
 The IoT Integration Plan at KN College is fixated on deploying smart gadgets, including shrewd locks and natural sensors, to upgrade security and procedures on campus. To increment in general efficiency and client experience, this involves coordinating IoT technologies for further developed administration, checking, and data examination.
-•	IoT Devices: 
+####	IoT Devices: 
 The IoT gadgets at KN College incorporate energy-effective brilliant lighting systems, smart locks with secure access the executives like the Igloo home Bluetooth Smart Deadbolt 2S ($279), and environmental sensors like the D23-NB ($179) for temperature and air quality observing. Innovation like the BenQ MX560 projector ($649) further develops homeroom executives and improves learning conditions.
 
- 
+ ![image](https://github.com/user-attachments/assets/e87ef527-c11c-43f3-a1e7-4c0284feaa88)
+
 Figure 3.7.1 IoT Integration Plan of KN University
-•	Network Division: 
-A committed IoT VLAN is set up at KN College to isolate IoT traffic from the fundamental network. This further develops data transfer capacity management to keep significant applications moving along as expected and increments security by preventing likely dangers from spreading. Since customized policies are permitted in this arrangement, overseeing IoT gadgets is additionally made more straightforward. To diminish security dangers, firewall rules are created to confine connections between the IoT VLAN and significant network fragments. To shield essential network services, these guidelines force severe limitations by allowing just vital traffic, denying unnecessary protocols, and looking out for oddities.
-•	Information Collection and Management: 
-The IoT gateway at KN College incorporates gathering information from different IoT gadgets, filtering and collecting the information before sending it to the cloud or server centre. Furthermore, it changes numerous communication conventions into a typical configuration, using encryption and confirmation to ensure safe data transfer. Information is kept in adaptable, secure data sets that might be tracked down nearby or in the cloud to guarantee security and consistency. Access controls and encryption are set up. Computerized backups given by cloud administrations further develop security and information storage, and investigations are finished to optimize operations and decision-making at campuses.
-•	Security: 
-Gadget checks at KN College involves endorsing and verifying Internet of Things (IoT) gadgets before network access through enlistment processes, unmistakable characters, and safe onboarding procedures, including multi-factor or certificate-based authentication. Information is encoded during transmission between Internet of Things gadgets and network endpoints to forestall unwanted access, utilizing algorithms like AES and TLS protocols. This ensures end-to-end encryption, and to keep up with high security and fix arising shortcomings, encryption guidelines are refreshed consistently.
-2.8	Network Implementation Plan
+
+####	Network Division: 
+A committed IoT VLAN is set up at KN College to isolate IoT traffic from the fundamental network. This further develops data transfer capacity management to keep significant applications moving along as expected and increments security by preventing likely dangers from spreading. Since customized policies are permitted in this arrangement, overseeing IoT gadgets is additionally made more straightforward. To diminish security dangers, firewall rules confine connections between the IoT VLAN and significant network fragments. To shield essential network services, these guidelines force severe limitations by allowing just vital traffic, denying unnecessary protocols, and looking out for oddities.
+####	Information Collection and Management: 
+The IoT gateway at KN College incorporates gathering information from different IoT gadgets, filtering it, and collecting it before sending it to the cloud or server centre. Furthermore, it changes numerous communication conventions into a typical configuration, using encryption and confirmation to ensure safe data transfer. Information is kept in adaptable, secure data sets that might be tracked down nearby or in the cloud to guarantee security and consistency. Access controls and encryption are set up. Computerized backups given by cloud administrations further develop security and information storage, and investigations are finished to optimize campus operations and decision-making.
+####	Security: 
+Gadget checks at KN College involve endorsing and verifying Internet of Things (IoT) gadgets before network access through enlistment processes, unmistakable characters, and safe onboarding procedures, including multi-factor or certificate-based authentication. Information is encoded during transmission between Internet of Things gadgets and network endpoints to forestall unwanted access, utilizing algorithms like AES and TLS protocols. This ensures end-to-end encryption, and to keep up with high security and fix arising shortcomings, encryption guidelines are refreshed consistently.
+
+### 2.8	Network Implementation Plan
 The execution plan at KN College calls for introducing, designing, and configuring network gear and programming, followed by thorough testing and system combination. To guarantee smooth progress, ensure end clients get training, exhaustive documentation, and client manuals.
-•	Project Planning: 
-A comprehensive schedule involving stages, dates, and achievements is made to ensure timely completion of KN College's task arranging. Assets for equipment and staff are apportioned, alongside monetary administration and the execution of communication and hazard management plans. Keeping up with documentation and setting up representative preparation upholds the smooth execution of new systems and viable project management.
-•	Deployment: 
+####	Project Planning: 
+A comprehensive schedule with stages, dates, and achievements ensures KN College's task is done quickly. Assets for equipment and staff are apportioned, alongside monetary administration and the execution of communication and hazard management plans. Keeping up with documentation and setting up representative preparation upholds the smooth execution of new systems and viable project management.
+####	Deployment: 
 At KN University, deployment comprises a few basic processes. Equipment installation is finished by introducing network gadgets, such as switches and routers, as per the plan, guaranteeing legitimate power and network cable connections, and setting gadgets for best execution. Then, software is arranged by doling out IP addresses, VLANs, and routing protocols and applying safety efforts like encryption and firewalls. Finally, the new equipment should be integrated into the current system and tested completely to guarantee consistent communication and similarity with present frameworks and applications.
-•	Testing and Approval: 
-At KN University, early testing is finished to confirm that all network equipment and programming have been appropriately introduced and arranged as per the plan details. This incorporates approving programming settings and equipment associations. Execution testing guarantees that the network satisfies speed, unwavering quality, and well-being norms, while functionality testing assesses fundamental network functions. Any shortcomings found are recorded and investigated using diagnostic apparatuses to lay out their underlying causes. After making fixes, impacted parts are retested. At long last, approval tests ensure that the network proceeds as expected while staying secure and solid. 
+####	Testing and Approval: 
+At KN University, early testing is finished to ensure all network equipment and programming have been appropriately introduced and arranged according to the plan details. This incorporates approving programming settings and equipment associations. Execution testing guarantees that the network satisfies speed, unwavering quality, and well-being norms, while functionality testing assesses fundamental network functions. Any shortcomings found are recorded and investigated using diagnostic apparatuses to lay out their underlying causes. After making fixes, impacted parts are retested. At long last, approval tests ensure that the network proceeds as expected while staying secure and solid. 
