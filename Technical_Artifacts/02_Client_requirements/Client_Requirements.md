@@ -24,6 +24,24 @@ KN University is a prestigious university in Australia with Melbourne, Sydney, B
 - IDS/IPS: Use IDS and IPS to track and terminate unlawful activities on the firm’s computer system.
 - Access Control: Realize strict levels of access control and touch base with authorized personnel to access confidential information.
 
+#### 1. Students
+
+![image](https://github.com/user-attachments/assets/894474f9-31fa-48f1-8829-5bf078b32f35)
+
+#### 2. Academic Staff
+
+![image](https://github.com/user-attachments/assets/db501cf1-081f-4c77-9705-39f0b273636d)
+
+#### 3. Non-Academic Staff
+
+![image](https://github.com/user-attachments/assets/3172557d-a7df-4977-96df-d5af3166104d)
+
+#### 4. Guest
+
+![image](https://github.com/user-attachments/assets/55169975-83df-4733-8459-27a8f2e550fb)
+
+
+
 3.	IoT Device Integration
 - IoT Deployment: Connect and apply IoT devices to protect the campus, monitor the environment, and manage the buildings.
 - Network Segmentation: This involves partitioning IoT devices from the organizational network to improve security while improving the network's performance.
