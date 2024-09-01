@@ -78,21 +78,23 @@ The wireless network is segmented into multiple VLANs according to users such as
 
 The document includes the precise assessment of the access point location, VLAN structure, and security measures. The technical artefact of [Wireless Network Design](https://github.com/KrishanHimesh/KN_University_Network_Design-Cyber_Security_Project_G02/blob/main/Technical_Artifacts/08_Wireless_Network_Design/Wireless_Network_Design.md) shows all the design details. 
 
-2.4	IP Addressing and Naming Scheme
+### 2.4	IP Addressing and Naming Scheme
 KN University IP addressing and naming plans offer all campuses a logical and efficient network resource management strategy. The scheme is based on user communities, and specific subnets are designated for students, academic staff, non-academic staff and guests. This segmentation not only improves security but also facilitates network management and troubleshooting.
 
-•	User Community Subnets: 
+####	User Community Subnets: 
 The subnets are assigned for each user community to enhance the traffic flows between the various subnets, which are well controlled and managed.
-•	VLAN Segmentation: 
+####	VLAN Segmentation: 
 VLANs are used to extend the physical segmentation of the network, with certain VLAN numbers reserved for specific types of devices, such as workstations, VoIP phones, wireless devices, etc.
-•	Naming Convention: 
+####	Naming Convention: 
 Network devices are assigned consistently using this naming convention: [campus]-[floor]-[device type]-[device number] (e.g., MEL-01-RTR-01: Melbourne campus, Floor 1, Router 1).
 More details about the IP addressing and naming scheme and the detailed subnetting information and examples can be obtained from the ‘group02-ip-addressing-and-naming-scheme’ technical artefact.
 
-2.5	Network Security Plan
+### 2.5	Network Security Plan
 A network security plan for KN University is intended to safeguard the university's computerized framework, delicate information, and client protection while guaranteeing the consistent activity of academic and administrative functions.
- 
-Figure 3.5.1 Network Security Plan of KN University
+
+ ![image](https://github.com/user-attachments/assets/9f297a49-1c32-41ff-9784-58025eeb9c3a)
+
+*Figure 3.5.1 Network Security Plan of KN University*
 •	Firewalls: 
 At KN University, firewalls erect a wall between trustworthy internal networks and untrusted external ones to guard against unwanted access and online threats. These can be internal firewalls that divide and guard critical network sections or perimeter firewalls that guard the network's edge. In addition, this KN University network has two firewalls, i.e., a physical firewall and a cloud firewall.
 •	IDPS: 
