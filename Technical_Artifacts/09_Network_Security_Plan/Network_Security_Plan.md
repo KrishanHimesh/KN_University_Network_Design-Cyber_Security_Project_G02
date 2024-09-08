@@ -66,14 +66,39 @@ The figure shows how the different components of network security are associated
 
 
 ## Policies and Procedures
--  Network Security Policy: The Network Security Policy lays out rules and guidelines for safeguarding an organization's network foundation. Clients’ ought to just approach the network resources important for their roles.
--  Guidelines: 
+
+- At KN University, the Policies and Methods segment frames fundamental principles and rules that govern network security, data protection, and client conduct to guarantee a solid, consistent, and well-working IT infrastructure. Here is a breakdown of key components:
+-  Network Security Policy: The Network Security Policy lays out rules for shielding the university's network from unapproved access, data breaches, and other security dangers. This guarantees that main approved people with explicit jobs and obligations approach the organization assets they need to play out their duties.
+
+-  Access Control: Clients (students, staff, or any clients) are allowed admittance to just the network assets essential for their jobs. For example, staff individuals could approach student records, while students just access individual academic data.
+
 ### Incident Response Plan
--  Steps: Detection, analysis, containment, eradication, recovery, and lessons learned.
-Data Protection Policy
-- Components: Data classification, handling procedures.
+-  This plan frames the steps the university will take to answer security incidents, for example, network breaks, data breach, or cyberattacks. The objective is to rapidly distinguish and relieve dangers while limiting harm and interruption to the university's activities.
+
+- Steps for incident response:
+Detection: Identifying the presence of a potential security incident.
+Investigation: Assessing the nature and effect of the incident.
+Containment: Making quick moves to restrict the spread of the danger.
+Eradication: Eliminating the reason for the incident (e.g., malware, unapproved access).
+Recuperation: Reestablishing ordinary tasks and securing systems against future incidents.
+Illustrations Learned: Post-incident audit to comprehend what turned out badly, report upgrades, and improve future response procedures. 
+
+### Data Protection Policy:
+- This arrangement establishes the legitimate administration, characterization, and handling of data inside KN College, guaranteeing consistence with nearby and worldwide guidelines like GDPR. Information security measures are basic in forestalling unapproved admittance to delicate data, for example, student records, research information, or financial transactions.
+Key Parts:
+Data Arrangement: Characterizing classifications of data in view of awareness (e.g., public, interior, confidential).
+Taking care of Methodology: Rules for storing, communicating, and sharing information safely, including encryption and access controls.
+
 ### User Training
-- Topics: Phishing, password management, and safe internet use.
+- KN University focuses on teaching clients about normal security dangers and best practices. Normal instructional meetings are led for the two students and staff, covering fundamental subjects to assist them with remaining educated and cautious.
+
+### Training Subjects
+- Phishing Awareness: Recognizing and avoiding email and electronic phishing endeavors that look to take individual data.
+Password Management: Best practices for creating strong passwords, utilizing password managers, and shielding login certifications.
+Safe Web Use: Rules for safe perusing, perceiving malevolent sites, and keeping away from dangerous internet-based conduct.
+   
+- These approaches and strategies intend to defend KN University's IT frameworks, safeguard information, and engage clients to act dependably inside the network. They contribute to a safe environment helpful for scholarly and administrative functions.
+
 
 # Risk Management
 ## Risk Assessment
@@ -81,6 +106,9 @@ Data Protection Policy
   
 ## Risk Mitigation
 - Risk mitigation implies implementing methodologies and exercises to diminish the probability and impact of recognized risks. The goal is to restrict likely risks and shortcomings, subsequently shielding a network assets, errands, and objectives. Convey firewalls to control and screen network traffic, forestalling unapproved access and mitigating external risks. Sporadically survey and update security approaches and strategies to ensure they stay significant and fruitful in watching out for current risks. Provide training on broad security works on, including perceiving phishing endeavours, safe web use, and genuine treatment of sensitive information.
+
+## Risk Analysis
+- Risk analysis at KN University implies distinguishing, surveying, and mitigating expected dangers to its IT framework, data, and activities. Key dangers incorporate cybersecurity threats (e.g., data breaks), functional interruptions, information security concerns, and physical hazards. Risks are assessed in view of probability and effect, with high-priority dangers, for example, data breaches or system blackouts getting the most consideration. Mitigating procedures incorporate cybersecurity measures, regular data backups, disaster recuperation plans, and client training. Nonstop observing, reviews, and clear communication guarantee that the risk management interaction adjusts to new difficulties, helping shield the university's systems and data.
 
 ## Continuous Monitoring
 -  Constant checking incorporates the consistent impression of a college's IT environment to recognize and answer security risks and execution issues dynamically. Network observing gadgets track the exhibition, availability, and security of network system. They give pieces of information into network traffic, device status, and potential issues that could influence network performance or security.
