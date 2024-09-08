@@ -19,6 +19,9 @@ The Distribution layer collects traffic from the access layer switches and direc
 -	Access Layer: 
 The Access layer links end devices such as workstations, printers, and IoT devices to the network via edge switches. It is designed to handle Power over Ethernet (PoE) for devices attached to the layer and is geared towards edge connectivity.
 
+![image](https://github.com/user-attachments/assets/5abcf49f-d1b6-43db-945f-6a13f4caf361)
+
+
 ## Device Selection
 -	Core Layer Devices: 
 At the core layer, 2Gbps WAN throughput Cisco ISR 4451-X routers will ensure high inter-campus and data centre connections.
@@ -63,17 +66,51 @@ Firewalls will be positioned at the edge of the network to filter external threa
 
 ## Wired Network Equipment by Campus 
 
-![image](https://github.com/user-attachments/assets/af006ff2-a903-49ae-81b9-e450122f4a5f)
+![image](https://github.com/user-attachments/assets/e067b3f0-1f85-4935-b82c-757dd1ce3318)
+
 
 ### Summary of Total Equipment
 -	**Total Core Layer Routers (Cisco ISR 4451-X): 8**
 -	**Total Distribution Layer Switches (Cisco Catalyst 9400-48U): 13**
 -	**Total Access Layer Switches (Cisco Catalyst 9300-48P): 46**
 -	**Total Firewalls (Cisco Firepower 2100 Series): 8**
+
+### Overview of the Devices
+#### 1.	Cisco ISR 4451-X Router 
+![image](https://github.com/user-attachments/assets/0a49f249-84b2-4c98-9116-4a1cf42937fd)
+
+![image](https://github.com/user-attachments/assets/63bc3693-00ce-42d8-8727-b5009a5ef5fb)
+
+#### 2.	Cisco Catalyst 9400-LC-48U Switch
+![image](https://github.com/user-attachments/assets/02223db6-47e7-49ef-9ce0-2dc820e96f33)
+
+![image](https://github.com/user-attachments/assets/08e1d5f8-f445-4238-a400-276088cb4280)
+
+#### 3.	Cisco Catalyst 9300-48P switch
+![image](https://github.com/user-attachments/assets/ea6c00ec-4db1-480c-a93a-16c66e919ffa)
+
+![image](https://github.com/user-attachments/assets/e15c9200-57cc-4978-9764-5b5c10c249e1)
+
+#### 4.	Cisco Firepower 2100 Series Firewall Model 2140
+![image](https://github.com/user-attachments/assets/1a570867-b243-4ddb-bfcf-68950d4f39c8)
+
+![image](https://github.com/user-attachments/assets/0b57dd0c-707e-4f87-9a9c-3b6bb3ef3adc)
+
+
 ### Key Considerations:
 -	Core Layer: Both campuses utilize the core layer with two Cisco ISR 4451-X routers for redundancy and failover capability.
 -	Distribution Layer: Distribution layer switches are Cisco Catalyst 9400-48U switches, of which each campus may contain two and above depending on its size and demand.
 -	Access Layer: Each campus needs connectivity to the end devices on the various floors, and the Cisco Catalyst 9300-48P switches provide this.
 -	Firewalls: There are several campuses, and to support and secure all the campuses, the Cisco Firepower 2100 series firewalls have been implemented
+
+
+## References
+
+- Cisco 2021, Cisco Firepower 2100 Series Data Sheet, Viewed  03 September 2024, https://www.cisco.com/c/en/us/products/collateral/security/firepower-2100-series/datasheet-c78-742473.html
+- Cisco 2024, Cisco 4451-X Integrated Services Router, Viewed 02 September 2024, https://www.cisco.com/c/en/us/support/routers/4451-x-integrated-services-router-isr/model.html#~tab-specs
+- Cisco 2024, Cisco Catalyst 9300 Series Switches Data Sheet, Viewed 03 September 2024, https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/nb-06-cat9300-ser-data-sheet-cte-en.html
+- Cisco 2024, Cisco Catalyst 9400 Series Switch Line Cards Data Sheet, Viewed 02 September 2024, https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9400-series-switches/nb-06-cat9400-series-line-data-sheet-cte-en.html
+
+
 
 
