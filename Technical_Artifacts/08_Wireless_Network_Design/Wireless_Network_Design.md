@@ -14,6 +14,17 @@ Supporting high bandwidth applications such as video conferencing, video streami
 ####	Security Requirements: 
 The adopted security measures for the network are as follows, namely WPA3 encryption, 802. 1X authentication and VLAN segmentation from other university areas are used to enhance the security of these resources.
 
+![image](https://github.com/user-attachments/assets/3350bc93-8680-40bd-a275-7cdc36f29898)
+
+
+Usage Categories. 
+-	Casual: Low-priority, non-essential services like browsing, light streaming, and music.
+-	Instructional: Critical academic services include video conferencing, online testing, and lecture streaming.
+-	General: Administrative or high-volume services like file sharing, printing, and database access. as segmentation
+
+![image](https://github.com/user-attachments/assets/1196606f-dbae-4c43-b080-ce3ef220b75d)
+
+
 ## Network Architecture
 ####	Centralized Wireless Controller: 
 Each campus will have a Cisco catalyst 9800-80 wireless controller, which manages all wireless access points in its network. These controllers have numerous functionalities like RF management, seamless roaming, and cutting-edge availability.
@@ -22,6 +33,9 @@ The new Wireless Access Points that would be used are the Cisco Catalyst 9136 Wi
 
 ####	VLAN Implementation: 
 VLANs will be utilized to separate the network based on the identity of its users: students, faculty, staff, and guests. They will also be based on IoT devices and printing services.
+
+![image](https://github.com/user-attachments/assets/484b4940-4ea7-4f8a-b82f-5e8d4442d071)
+
 
 ## Device Selection
 ####	Wireless Controllers: 
@@ -36,6 +50,11 @@ A site location survey will be conducted to ensure the best positioning of the A
 In zones where users are most densely located, like auditoriums and libraries, more access points will be installed so the bandwidth can be enough without conflict.
 ####	Power over Ethernet (PoE): 
 All of the APs will be powered from PoE++ switches for easier installation and the standardization of power management.
+
+### Heat Map of the Wireless Network
+The following map of floor three explains the placement of the Access points to provide seamless coverage within the building. Other floors have the same coverage to provide users with highly available, seamless wireless network coverage throughout the university. 
+
+![image](https://github.com/user-attachments/assets/e36754e4-48ec-4e0c-a613-8488dbd6c937)
 
 
 ## Security Implementation
@@ -68,11 +87,33 @@ To enhance security policies in the network, ACLs will be implemented on the wir
 -	**Total High-Density Indoor APs (Cisco Catalyst 9136 Wi-Fi 6E): 12**
 -	**Total Outdoor APs (Cisco Catalyst 9124AXE): 16**
 
+### Overview of the Devices
+#### 1.	Cisco Catalyst 9800-80 Wireless Controller
+![image](https://github.com/user-attachments/assets/015d18f7-f679-4825-a5f7-7defdd0750bc)
+
+![image](https://github.com/user-attachments/assets/0c6b18a3-8710-4969-bb8a-e425e8b982ef)
+
+#### 2.	Cisco Catalyst 9136 Wi-Fi 6E Access Point
+![image](https://github.com/user-attachments/assets/6509bee8-755f-4c3b-9ee9-880ac80a3069)
+
+![image](https://github.com/user-attachments/assets/49ae91ee-b3d2-4d00-afd3-98bde456baa5)
+
+#### 3.	Cisco Catalyst 9124AXE Access Point 
+![image](https://github.com/user-attachments/assets/a735405b-d3fe-489b-adf1-929b2de3556c)
+
+![image](https://github.com/user-attachments/assets/76053742-749b-49d7-a6fe-8bab37caa19c)
+
 ### Key Considerations:
 -	Wi-Fi 6E Support: The Cisco Catalyst 9136 Series Access Points are in the new generation of the latest Access Points in the market that support Wi-Fi 6E, including the 6GHz band. This enhancement brings more spectrum, reduces congestion, and enhances performance, particularly in dense usage emplacements.
 -	PoE++ (802. 3bt): The 9136 Series APs are PoE++ (802. 3bt) powered and deliver higher power levels needed by the multiple radios and processing of these enhanced APs.
 -	Cisco Catalyst 9800-80 Controllers: These are primarily targeted for big-scale enterprises where flexibility, big data handling capacity, excellent I/O rates, and enhanced security are profound. These are especially useful where many APs and users will spread over several campuses.
 -	Outdoor Coverage: The Cisco Catalyst 9124AXE APs are weather resistant and thus suitable for use outdoors, for instance, in yards, parking lots, and sporting fields.
+
+## References
+- Cisco 2022, Cisco Catalyst 9800-80 Wireless Controller Data Sheet, Viewed  03 September 2024, https://www.cisco.com/c/en/us/products/collateral/wireless/catalyst-9800-series-wireless-controllers/nb-06-cat9800-80-wirel-mod-data-sheet-ctp-en.html
+- Cisco 2023, Cisco Catalyst 9124AX Series Access Points Data Sheet, Viewed 02 September 2024, https://www.cisco.com/c/en/us/products/collateral/wireless/catalyst-9100ax-access-points/nb-06-cat9124-ser-ap-ds-cte-en.html
+- Cisco, 2023. Cisco Catalyst 9136 Series Access Points Data Sheet, Viewed 02 September 2024, https://www.cisco.com/c/en/us/products/collateral/wireless/catalyst-9100ax-access-points/nb-06-cat9136-access-point-ds-cte-en.html
+
 
 
 
