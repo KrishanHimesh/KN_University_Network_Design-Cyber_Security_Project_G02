@@ -2,6 +2,7 @@
 
 ## Overview
 The wired network design for KN University is focused on providing a robust, scalable, and secure infrastructure that supports the diverse needs of students, academic staff, and non-academic staff across four campuses: Melbourne, Sydney, Brisbane and Adelaide. This design aims to achieve high availability, redundancy and efficiency in all academic and administrative functions.
+
 ## Requirement Analysis
 -	User Requirements: 
 The network must accommodate many users on its connectivity network, as the users include students and academic and non-academic staff of the universities. Every user in the network will require connectivity to the internal resources (e.g., file servers and databases) and external resources (e.g., the internet).
@@ -9,6 +10,14 @@ The network must accommodate many users on its connectivity network, as the user
 The network should accommodate bandwidth-intensive demands, including video conferencing, transfer of large files, research activities, and cloud computing.
 -	Security Requirements: 
 Security controls such as segmentation, access control and encryption should be implemented to secure the vital network data.
+![image](https://github.com/user-attachments/assets/d8c07e1c-fb08-4839-ad6a-9bbac2597859)
+
+Usage Categories. 
+-	Casual: Low-priority, non-essential services like browsing, light streaming, and music.
+-	Instructional: Critical academic services include video conferencing, online testing, and lecture streaming.
+-	General: Administrative or high-volume services like file sharing, printing, and database access. as segmentation
+
+![image](https://github.com/user-attachments/assets/87d692b0-7db2-482a-ab5a-dcbdccfd6800)
 
 
 ## Network Architecture
