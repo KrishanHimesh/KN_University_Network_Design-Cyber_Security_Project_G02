@@ -73,7 +73,9 @@ Melbourne Campus has six floors. Floors three to six have the same layout as flo
  
 *Figure 1.9 Intermediate Distribution Frame*
 
-![image](https://github.com/user-attachments/assets/b3963b3b-8bfb-496f-97d1-5683d42a8610)
+The purple colour shows the heat map of the wireless network coverage across floor one. The red circles show the locations of the Wireless access points. 
+
+![image](https://github.com/user-attachments/assets/82e978d3-39b3-4410-8a49-4c0e03488b70)
 
 *Figure 1.10 Floor Three Physical Layout*
 
