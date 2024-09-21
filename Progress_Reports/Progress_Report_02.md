@@ -5,3 +5,7 @@ KN University is a prestigious university in Australia with four active campuses
 
 ## Technical Artifacts and Individual Contributions
 
+![image](https://github.com/user-attachments/assets/b96ed0ea-155b-4ba9-9dc4-fc88b8a3d5f5)
+
+
+![image](https://github.com/user-attachments/assets/2c805479-57be-4262-b37f-85d19793e6d0)
