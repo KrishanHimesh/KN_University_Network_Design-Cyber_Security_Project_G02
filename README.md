@@ -23,6 +23,11 @@ KN University is a prestigious university in Australia with four active campuses
 - [15. Network Performance and Optimization Plan](Technical_Artifacts/15_Network_Performance_and_Optimization_Plan/Network_Performance_and_Optimization_Plan.md)
 - [16. Testing and Validation Plan](Technical_Artifacts/16_Testing_and_Validation_Plan/Testing_and_Validation_Plan.md)
 - [17. Training and Handover Document](Technical_Artifacts/17_Training_and_Handover_Document/Training_and_Handover_Document.md)
-- [18. Project Timeline and Milestones](https://github.com/users/KrishanHimesh/projects/4)
+- [18. Project Timeline and Milestones](Technical_Artifacts/18_Project_Timeline_and_Milestones/Project_Timeline_and_Milestones.md)
+- [19. Prototype Design and Implantations](Technical_Artifacts/19_Prototype_design_and_implementation/19_Prototype_design_and_implementation.md)
+- [20. Physical Network Demonstration](Technical_Artifacts/20_Physical_Network_Demonstration/20_Physical_Network_Demonstration.md)
+- [21. Active Directory Configuration and Demonstration](Technical_Artifacts/21_Active_Directory_Configuration_and_demonstration/21_Active_Directory_Configuration_and_demonstration.md)
+- [22. Web Server Demonstration](Technical_Artifacts/22_Web_server_demonstration/22_Web_server_demonstration.md)
+- [23. IoT Demonstration](Technical_Artifacts/23_IoT_Demonstration/23_IoT_Demonstration.md)
 
 ![image](https://github.com/user-attachments/assets/d321a1a6-8bd0-40da-8136-5ccad25f9326)
