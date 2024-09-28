@@ -2,11 +2,13 @@
 
 ## Project Plan WBS
 
-![image](https://github.com/user-attachments/assets/7b083391-452b-4ff4-8ae4-71f02c19cb22)
+![image](https://github.com/user-attachments/assets/8a1933c3-b89f-4e43-b090-51544c819760)
+
 
 ## Grnat Chart
 
-![image](https://github.com/user-attachments/assets/5ce4ce09-97ac-48fb-b801-39dd4277912b)
+![image](https://github.com/user-attachments/assets/29302ecc-4c7e-4be2-a5a5-14b983ac1878)
+
 
 ## Progress of the project by 5th of August
 
