@@ -3,7 +3,7 @@
 KN University is a prestigious university in Australia with Melbourne, Sydney, Brisbane, and Adelaide campuses. The university offers undergraduate programs across four faculties. The schools include those in engineering, technology, law, and business. Every campus has teaching and administrative facilities that enhance education provision.
 This artefact describes all the steps we followed in designing and implementing the prototype demonstration of the Physical network design. 
 
-## Layout and implementation Plan of the Physical network
+## Layout and Implementation Plan of the Physical network
 
 Before implementing the Physical network Design, the following logical diagram has been developed in the Cisco Packet Tracer.
  
@@ -56,129 +56,148 @@ The next step is to configure sub-interfaces on the router for each VLAN. For th
 
 2.	VLAN20 for Academic Staff
  
-Image 2.4 Configuring interface for VLAN12
+![image](https://github.com/user-attachments/assets/f10bfded-132e-4405-af2d-4cbd97907588)
+
 3.	VLAN52 for Network Management
  
-Image 2.5 Configuring interface for VLAN52
-2.	Configuring DHCP Pools
+![image](https://github.com/user-attachments/assets/6eeb7323-fb96-4af8-bd56-e3064f7302e1)
+
+#### 2.	Configuring DHCP Pools
 Then, the DHCP pools for each VLAN are configured, as shown in the screenshot below. We have used all subnet masks as /24 for all three subnets only for the demonstration. 
 1.	VLAN10 – Students – 10.10.0.1/24
 2.	VLAN20 – Academic Staff – 10.20.0.1/24
 3.	VLAN52 – Network Management – 10.255.2.1/24
  
-Image 2.6 Configuring DHCP Pool
+![image](https://github.com/user-attachments/assets/62adefcb-e3de-4bf7-bdda-84e40fd1baa2)
+
 The Run ‘show ip dhcp pool’ command to verify that the DHCP configuration has been assigned properly. The following screenshot shows the configured DHCP configuration.
 We haven’t excluded any IP addresses in this configuration. But we can assign a reserved IP address pool for each VLAN according to the future requirement of static IPs from each VLAN using the command,
-ip dhcp excluded-address [Starting IP] [Finish IP]
+`ip dhcp excluded-address [Starting IP] [Finish IP]`
 		 
 
  
-Image 2.7 Verify DHCP Pool
-3.	Configure NAT
+![image](https://github.com/user-attachments/assets/e9a65899-d1f3-42ad-a5d6-35decb35861a)
+
+#### 3.	Configure NAT
 Configure the Network Address Translation (NAT) on the Router for each interface to allow devices to access the Internet, as shown below.
  
-Image 2.7 Configure NAT
+![image](https://github.com/user-attachments/assets/551ea33b-af05-402e-806b-82d74f31a521)
 
-4.	Configure the IP route
+
+#### 4.	Configure the IP route
 Configure an IP route to allow internal devices to share a single public IP.
  
-Image 2.8 Configure IP route
+![image](https://github.com/user-attachments/assets/e18cc032-9247-42b5-90a4-3916513d64c2)
+
 Testing the Internet access of the Router 
 Then, test the router's internet connection by pinging the outside address from the router as below. Router internet access was successful, as shown in the screenshot. 
  
-Image 2.9 Testing Internet Connectivity of the Router
+![image](https://github.com/user-attachments/assets/45fe5a61-464a-4475-b8f4-6da2e5ba2ad7)
 
 
 
-
-
-5.	Configuring the Router for Inter VLAN communication
+#### 5.	Configuring the Router for Inter VLAN communication
 1.	Router RIP
  
-Image 2.10 Router RIP
+![image](https://github.com/user-attachments/assets/b1670600-af67-45c8-b8ba-c917cee4a623)
+
 2.	Trunk port 13
  
-Image 2.11 Trunk Router for Inter-VLAN Communication 
+![image](https://github.com/user-attachments/assets/fbbf33f4-98da-41c9-b1e1-df8779aab921)
+
 After configuring the router, Test the inter-VLAN configuration as follows. *** Note: To test the configuration, server configuration should also be completed. ***
  
-Image 2.12 Testing Inter VLAN Communication
-6.	Save configuration
+![image](https://github.com/user-attachments/assets/a1587b48-66ba-45d8-9e51-a77c1ae95cdf)
+
+#### 6.	Save configuration
 After completing the router configuration, save the configurations to load in the next reboot.
- 
-Image 2.13 Saving the Configuration
+
+ ![image](https://github.com/user-attachments/assets/b6e4bde0-ced9-459d-a714-27539b846531)
+
  
-Switch Configure
-1.	Change hostname
+### Switch Configure
+#### 1.	Change hostname
 Connect the Switch using the console cable to the terminal. The set the hostname of the switch as follows
  
-Image 3. 1 Set the hostname of the Switch
-2.	Configuring VLANs
+![image](https://github.com/user-attachments/assets/b97ed363-32b5-4d5b-a936-337e99c35701)
+
+#### 2.	Configuring VLANs
 Configure the VLANs by giving them names and descriptions.
  
-Image 3. 2 Configuring VLANs
-3.	Assigning switch ports to VLANs
+![image](https://github.com/user-attachments/assets/40a1c1f8-c350-41f0-83a7-240cef14ef74)
+
+#### 3.	Assigning switch ports to VLANs
  
-Image 3.3 Assigning Switch Ports to the VLANS
-4.	Trunk Switch Ports
+![image](https://github.com/user-attachments/assets/620acafb-a03c-4844-ae2a-ecbae7e73ebf)
+
+#### 4.	Trunk Switch Ports
 Trunk the switch port for Inter VLAN communication and communication between different network components.
  
-Image 3.4 Trunk the Switch Ports
-After completing the configurations, it was saved like the router to load from the next reboot. 
+![image](https://github.com/user-attachments/assets/8bb2c44e-3d1f-47d8-ac29-dca0b56f7648)
 
+After completing the configurations, it was saved like the router to load from the next reboot. 
  
-Image 3.5 Save Configuration
+![image](https://github.com/user-attachments/assets/02411aee-bdba-4033-b12b-5e46b99baae5)
+
 
  
-Configure the Wireless Access Point
-Wireless AP connected to the VLAN52, network management and completed the basic setting by setting the SSID as KNU_WIFI and adding a secured password. The following screenshot shows the IP address assigned for the wireless router before changing the TP-Link Archer C24 as a wireless access point. 
+### Configure the Wireless Access Point
+Wireless AP connected to the VLAN52, network management and completed the basic setting by setting the SSID as *KNU_WIFI* and adding a secured password. The following screenshot shows the IP address assigned for the wireless router before changing the TP-Link Archer C24 as a wireless access point. 
  
-Image 4.1 IP of the Wireless router
+![image](https://github.com/user-attachments/assets/86a0a78b-da12-4b83-a42b-903c99af9715)
+
 Then, from advanced, change the operation mode to the access point, as shown below. 
-** The original plan was deviated as this router does not support RADIUS authentication. I planned to configure the RADIUS server to access the AP using the username and Password. **
+*The original plan was deviated as this router does not support RADIUS authentication. I planned to configure the RADIUS server to access the AP using the username and Password.*
  
-Image 4.2 Setting the Router to Access Point 
-Testing
+![image](https://github.com/user-attachments/assets/db75def5-6004-45fb-88a5-b5d583df5c76)
+
+### Testing
 The following main aspects were tested to verify the KNU Prototype network.
 1.	IP address assigned according to the VLAN
 2.	Pinging to an external IP address to verify the Internet Connectivity
 3.	Pinging internal IP address to verify the Inter VLAN connectivity.
 The following image shows the port assigned to the testing. 
  
-Image 5.1 Switch Ports used
+![image](https://github.com/user-attachments/assets/d0024e0a-e32d-45c6-b6d0-a08db635a4d4)
+
 Testing was carried out on each device after setting up the ports for each device. The screenshots are taken from each device to check the IP address assigned and Pinging to google.com (external IP). 
  
-Device from Student VLAN
+#### Device from Student VLAN
 IP address assigning and the connectivity to the student VLAN. The assigned IP address was 10.10.0.2 from VLAN10. 
  
-Image 5.2 IP address and Ping from a student’s Device
+![image](https://github.com/user-attachments/assets/32faeacb-9c37-49a0-b0b9-e5460659058c)
 
  
-Device from Academic Staff VLAN
+#### Device from Academic Staff VLAN
 IP address assigning and the connectivity to the student VLAN. The assigned IP address was 10.20.0.2 from VLAN20. 
  
-Image 5.3 IP address and Ping from a Staff’s Device
+![image](https://github.com/user-attachments/assets/09dfa24c-c96d-4569-a9cf-ad461b78ff9b)
 
  
-Device from Academic Staff VLAN
+#### Device from Network Management VLAN
 IP address assigning and the connectivity to the student VLAN. The assigned IP address was 10.255.2.3 from VLAN20. 
  
-Image 5.4 IP address and Ping from a Network Management Device
-Implementing Security
+![image](https://github.com/user-attachments/assets/a12e0d9f-1b68-4bd9-8b7a-a898904e86e2)
+
+## Implementing Security
+
 After configuring and setting up the Network, the KNU Robust network security plan was implemented to secure the network and provide redundant connectivity. 
-1.	Setting up password access for Router and Switch
+### 1.	Setting up password access for Router and Switch
 Setting up the password access for the configuration terminal of the Switch and the Rouster as follows to restrict unauthorised access to the configuration of the devices. 
  
- 
-Image 6.1 Setting Up Password Access
-2.	Implementing Security by shutting down unused interfaces
+ ![image](https://github.com/user-attachments/assets/b377cfc8-696a-4a87-9760-001ec6bf167f)
+
+### 2.	Implementing Security by shutting down unused interfaces
 Shutting down the unused ports in the server to prevent any unauthorised devices from connecting to the network is as follows: 
  
-Image 6.2 Shutdown unused ports
- 
-Image 6.3 IP Interface Brief
+![image](https://github.com/user-attachments/assets/d107bbdc-6970-4e20-b301-6f459623c726)
 
-3.	Configuring Port Security for ports
+ ![image](https://github.com/user-attachments/assets/b2c73578-c92d-4db5-80a1-6824210e071b)
+
+
+### 3.	Configuring Port Security for ports
 Configure the port security to allow only one Mac address per port to prevent unauthorised devices from being connected to a port by unplugging the devices. 
  
-Image 6.4 Implement Port Security
+![image](https://github.com/user-attachments/assets/b6c99f70-5852-41cd-a876-3319b6ea4dc7)
+
 
