@@ -4,9 +4,12 @@ KN University is a prestigious university in Australia with Melbourne, Sydney, B
 
 ## User Communities
 There are three main user communities in KNU. 
-1.	Students
-2.	Academic Staff
-3.	Non-Academic Staff
+1.	Students - 18500
+2.	Academic Staff - 1020
+3.	Non-Academic Staff - 710
+
+
+![image](https://github.com/user-attachments/assets/f52f7d75-ee96-4d5e-90c9-f74d0ac8f2bc)
 
 
 ## Students
