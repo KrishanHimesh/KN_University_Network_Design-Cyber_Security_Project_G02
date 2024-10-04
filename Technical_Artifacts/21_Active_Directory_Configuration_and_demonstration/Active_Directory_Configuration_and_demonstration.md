@@ -148,21 +148,21 @@ After setting up and configuring the VMs, the final step is to configure the Gro
 1. Configure Group Policies (GPOs)
 Before creating the controls, we made all the Group Policies for each user group using the following steps:
 
-I.	Open Group Policy Management.
+        I.	Open Group Policy Management.
 
-II.	Right-click on the Group Policy Objects container and select New.
+        II.	Right-click on the Group Policy Objects container and select New.
+  
+        III.	Name the policy: 
 
-III.	Name the policy: 
+          a.	StudentPolicy, 
 
-a.	StudentPolicy, 
+          b.	AcademicStaffPolicy, 
 
-b.	AcademicStaffPolicy, 
+          c.	NonAcademicStaffPolicy
 
-c.	NonAcademicStaffPolicy
+        IV.	Edit the policy by right-clicking and selecting Edit.
 
-IV.	Edit the policy by right-clicking and selecting Edit.
-
-V.	Set user and computer configurations (e.g., restrict access to certain network drives for students).
+        V.	Set user and computer configurations (e.g., restrict access to certain network drives for students).
 
 
 The following screenshot shows the GPOs
@@ -173,8 +173,8 @@ After creating the GPOs,
 
 2.	Link GPOs to Organisational Units (OU)s:
 
-i.	Right-click on the OU and select Link an Existing GPO.
-ii.	Choose the appropriate GPO
+        i.	Right-click on the OU and select Link an Existing GPO.
+        ii.	Choose the appropriate GPO
  
 ## Setting up the PfSense VM
 
