@@ -380,33 +380,30 @@ After creating the policies, Update the policies in the clients using the follow
 
 In addition to the main policies, we have set up a Common Policy for Turnoff Windows  Updates.
  
-Image 7.13 New policy to turn off Windows auto-update
+![image](https://github.com/user-attachments/assets/3a1e0af8-2612-4aa8-95c2-38080885aea3)
 
- 
-Image 7.14 Policy to Disable auto-update 
+
+ ![image](https://github.com/user-attachments/assets/f2f78276-0f0e-4726-b1b2-c1c013348b62)
+
 
  
-Testing
+### Testing
 1.	The following screenshot shows the access to the file with the student and the staff Ous. Staff can Edit, Delete and create files that Students can only read. 
  
-Image 7.15 Access control level to the file
+![image](https://github.com/user-attachments/assets/39c6960e-e3e9-46f2-a358-22b72dd584d9)
+
 2.	Test the Application Access Control by installing Chrome.exe on the student and Staff machines. 
  
-Image 7.16 Application Installation Restriction in Student OU
+![image](https://github.com/user-attachments/assets/37569613-c5a1-4fca-b12b-212fddf4cdfd)
 
  
-Image 7.17 Application Installation Restriction in Staff OU
+![image](https://github.com/user-attachments/assets/abbc3806-9c54-4ad2-991f-56d1262436fa)
 
 
 
 3.	Restrict access to Facebook.com for Students and staff using the firewall. 
  
-Image 7.18 Firewall Restriction Test
-
-
-
-
-
+![image](https://github.com/user-attachments/assets/0fdd3d4f-122a-4943-8eb5-9bba0fe97a5d)
 
 
  
