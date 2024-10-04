@@ -117,23 +117,23 @@ Then, create Network Policies for Each User Group using the following steps
 1.	Go to NPS, expand Policies, right-click Network Policies, and choose New.
 2.	Name the policy for each user group in the New Network Policy Wizard.
 
-a.	New Policy for Students:
-•	Name: Students_Network_Policy.
-•	Conditions: Add a condition for User Groups and choose Students_Group from AD.
-•	Constraints: Set up PEAP for authentication. Ensure that MS-CHAPv2 is selected for the authentication method within PEAP.
-•	Settings: Under RADIUS Attributes > Standard, add Tunnel-Pvt-Group-ID and set the VLAN ID to VLAN 10.
+##### a.	New Policy for Students:
+- Name: Students_Network_Policy.
+- Conditions: Add a condition for User Groups and choose Students_Group from AD.
+- Constraints: Set up PEAP for authentication. Ensure that MS-CHAPv2 is selected for the authentication method within PEAP.
+- Settings: Under RADIUS Attributes > Standard, add Tunnel-Pvt-Group-ID and set the VLAN ID to VLAN 10.
 
-b.	New Policy for Academic Staff:
-•	Name: AcademicStaff_Network_Policy.
-•	Conditions: Add AcademicStaff_Group from AD.
-•	Constraints: Set up PEAP for authentication. Ensure that MS-CHAPv2 is selected for the authentication method within PEAP.
-•	Settings: Under RADIUS Attributes > Standard, add Tunnel-Pvt-Group-ID and set the VLAN ID to VLAN 20.
+##### b.	New Policy for Academic Staff:
+- Name: AcademicStaff_Network_Policy.
+- Conditions: Add AcademicStaff_Group from AD.
+- Constraints: Set up PEAP for authentication. Ensure that MS-CHAPv2 is selected for the authentication method within PEAP.
+- Settings: Under RADIUS Attributes > Standard, add Tunnel-Pvt-Group-ID and set the VLAN ID to VLAN 20.
 
-c.	New Policy for Non-Academic Staff:
-•	Name: NonAcademicStaff_Network_Policy.
-•	Conditions: Add NonAcademicStaff_Group from AD.
-•	Constraints: Set up PEAP for authentication. Ensure that MS-CHAPv2 is selected for the authentication method within PEAP.
-•	Settings: Under RADIUS Attributes > Standard, add Tunnel-Pvt-Group-ID and set the VLAN ID to VLAN 30.
+##### c.	New Policy for Non-Academic Staff:
+- Name: NonAcademicStaff_Network_Policy.
+- Conditions: Add NonAcademicStaff_Group from AD.
+- Constraints: Set up PEAP for authentication. Ensure that MS-CHAPv2 is selected for the authentication method within PEAP.
+- Settings: Under RADIUS Attributes > Standard, add Tunnel-Pvt-Group-ID and set the VLAN ID to VLAN 30.
 
 3.	Complete the wizard and ensure the policy is enabled.
 4.	These policies will now assign Students to VLAN 10, Academic Staff to VLAN 20 and Non-Academic Staff to 30 upon successful authentication.
