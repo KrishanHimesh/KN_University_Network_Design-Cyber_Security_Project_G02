@@ -174,6 +174,7 @@ After creating the GPOs,
 2.	Link GPOs to Organisational Units (OU)s:
 
         i.	Right-click on the OU and select Link an Existing GPO.
+  	
         ii.	Choose the appropriate GPO
  
 ## Setting up the PfSense VM
@@ -182,148 +183,200 @@ Download the ISO of the Netgate PfSense using the following link:
 https://www.pfsense.org/download/   
 Then, Installed PFsense into the VM of the Virtual Box as below
  
-Image 5.1 Installing PfSense VM
+![image](https://github.com/user-attachments/assets/02df9838-2d54-4a4a-bc25-f8f391160fa9)
+
 Then, two network adapters are added to the network settings, and one adapter is set as the Bridge adapter to connect to the Internet directly. The second adapter is the Internal Network and selects the internal network, and the internal network is KNU. As a backup, we added another adapter as a NAT for the third adapter, as shown in the screenshots below, Image 5.1, Image 5.2 and Image 5.3. 
 
 
  
-Image 5.2 Adapter 1 of the PfSense
+![image](https://github.com/user-attachments/assets/57c69806-475e-42c3-b274-7ad63c093029)
+
  
-Image 5.3 Adapter 2 of the PfSense
+![image](https://github.com/user-attachments/assets/69414350-c7a1-4e67-9f1f-ddf6193a57da)
+
  
-Image 5.4 Adapter 3 of the PfSense
+![image](https://github.com/user-attachments/assets/3d6641b9-b9ff-465e-b767-e47516e604f5)
+
 
 After installing and setting up the VM, open the Pfsense terminal as follows and configure the IP address as 10.25.2.1, MEL-02-RTR-01 as following image 5.5.
 
  
-Image 5.5 Dashboard of the PfSense
+![image](https://github.com/user-attachments/assets/a6ec3219-7dd6-47d3-87a5-fc82fe45581d)
+
 Then, Configure the PfSense to create VLANs for students and Academic Staff as follows:
  
-Image 5.6 VLAN configuration of the PfSense
+![image](https://github.com/user-attachments/assets/d14debed-a272-4d43-bb38-b499583714c2)
+
 After finishing the network configuration, set up Radius on the PfSense. For that, log in to the Router GUI using the Server machine, as shown in Figure 5.7
 Login using the default username and password.
  
-Image 5.7 GUI of the PfSense
+![image](https://github.com/user-attachments/assets/6e300599-33ea-4665-b121-55575d56d9b9)
+
 
 The next figure shows the Dashboard of the PfSense
  
-Image 5.7 Dashboard of the PfSense
+![image](https://github.com/user-attachments/assets/4a3ed313-3508-4c95-9585-feba5783cc61)
+
 Before setting up the RADIUS client, we set up the RADIUS server on the server machine, as shown in the screenshot, Image 5.8.
 Then, use the following steps to create the RADIUS Client on the Server
 1.	Create a New RADIUS Client from the RADIUS Server.
-I.	Go to NPS in the tools and expand RADIUS Clients and Servers.
-II.	Right-click on RADIUS Clients and choose New.
-III.	Name it MEL-02-RTR-01
-IV.	Enter the IP address of MEL-02-RTR-01 in Address (10.255.2.1)
-V.	Enter a Shared Secret (this will be used later in pfSense to link RADIUS).
-VI.	Click OK.
+
+
+        I.	Go to NPS in the tools and expand RADIUS Clients and Servers.
+  	
+        II.	Right-click on RADIUS Clients and choose New.
+  	
+        III.	Name it MEL-02-RTR-01
+  	
+        IV.	Enter the IP address of MEL-02-RTR-01 in Address (10.255.2.1)
+  	
+        V.	Enter a Shared Secret (this will be used later in pfSense to link RADIUS).
+  	
+        VI.	Click OK.
 
  
-Image 5.8 Setup the RADIUS Server
+![image](https://github.com/user-attachments/assets/f2397007-a39a-4796-b88a-587709cb297b)
+
 
 2.	Configure pfSense to Use RADIUS Authentication
+
+
 Then, I configured pfSense to use RADIUS for authentication and linked it with the Active Directory server.
-1.	Go to System > User Manager > Authentication Servers in pfSense.
-2.	Add a New Authentication Server:
-I.	Click Add to create a new server.
-II.	Set Type to RADIUS.
-III.	Set the name as KNU_RADIUS
-IV.	Hostname or IP: 10.255.2.10
-V.	Authentication port: The default RADIUS port is 1812.
-VI.	Shared Secret: Used the shared secret configured earlier on the NPS server.
-VII.	Authentication Timeout: Default.
-VIII.	NAS IP Address: 10.255.2.1.
-IX.	Click Save to apply the settings.
+
+    1.	Go to System > User Manager > Authentication Servers in pfSense.
+    
+    2.	Add a New Authentication Server:
+    
+      I.	Click Add to create a new server.
+      
+      II.	Set Type to RADIUS.
+      
+      III.	Set the name as KNU_RADIUS
+
+      IV.	Hostname or IP: 10.255.2.10
+      
+      V.	Authentication port: The default RADIUS port is 1812.
+      
+      VI.	Shared Secret: Used the shared secret configured earlier on the NPS server.
+      
+      VII.	Authentication Timeout: Default.
+      
+      VIII.	NAS IP Address: 10.255.2.1.
+      
+      IX.	Click Save to apply the settings.
  
-Image 5.9 Setup the RADIUS Client on PfSense
+![image](https://github.com/user-attachments/assets/d2991ad4-3435-4a25-9ff7-e3c33a73cd8b)
+
 
 3.	Set Up pfSense to Assign VLANs Based on RADIUS Groups
-I.	Go to Interfaces > Assignments in pfSense.
-II.	Enable Dynamic VLANs (WPA2-Enterprise)
-•	Go to Interfaces > VLAN10 > Advanced.
-•	Under VLAN Tagging, enable Dynamic VLAN Assignment.
-III.	Configure the Firewall Rules for VLAN Interfaces to communicate between VLANs and NAT, as shown in Figure 5.10. 
-•	Add rules under Firewall > Rules for each VLAN.
-IV.	Set up pfSense Captive Portal for RADIUS-based authentication for wireless users:
-•	Using WPA2-Enterprise, link it to RADIUS for dynamic VLAN assignment.
+
+
+        I.	Go to Interfaces > Assignments in pfSense.
+        II.	Enable Dynamic VLANs (WPA2-Enterprise)
+            - Go to Interfaces > VLAN10 > Advanced.
+            - Under VLAN Tagging, enable Dynamic VLAN Assignment.
+        III.	Configure the Firewall Rules for VLAN Interfaces to communicate between VLANs and NAT, as shown in Figure 5.10. 
+            - Add rules under Firewall > Rules for each VLAN.
+        IV.	Set up pfSense Captive Portal for RADIUS-based authentication for wireless users:
+            - Using WPA2-Enterprise, link it to RADIUS for dynamic VLAN assignment.
 
  
-Image 5.10 Setup the VLAN firewall
+![image](https://github.com/user-attachments/assets/680fabd3-172c-4234-9363-ab2d24faa806)
+
 
  
-Creating the Client VM with Windows 10
+## Creating the Client VM with Windows 10
+
 For the demonstration of the users, we are using two VMs installed with Windows 10 operating system. The following screenshot shows the installation of Windows 10 in the VM. 
  
-Image 6.1 Installing Windows 10 on client VMs
+![image](https://github.com/user-attachments/assets/7e2133b6-97da-4017-b305-31b4e5593fc0)
+
 
 After the installation, set up the VM as a standard Windows 10 and name the PC according to the naming convention MEL-01-WS-01. Then, configure the network settings of the VM and connect to the internal network using the Virtual Box Network Adapter shown below in Figure 5.2. 
 
  
-Image 6.2 Setting up the Internal Network KNU
+![image](https://github.com/user-attachments/assets/b6d64058-d061-413f-98c5-5e54d5f7b4d0)
+
 
 Then, a clone of the VM will be created to demonstrate the student and staff simultaneously. 
 After setting up the network configurations in the virtual box, go to the properties of the VM in Windows 10 and select the domain as the knu.local, as shown below.
  
-Image 6.3 makes the VM a member of the Domain
+![image](https://github.com/user-attachments/assets/27a19623-c693-4201-bbd2-b22d9a70d079)
+
 
 Then, sign in as a user from the domain to set it up and connect to the KNU.LOCAL, as shown below in Figure 6.4. 
  
-Image 6.4 Sign in to the domain 
+![image](https://github.com/user-attachments/assets/e0de8737-6e46-4b21-9a5e-f2c572dcf40f)
+
 
 After signing and successfully connecting to the domain, the VM should be restarted, as prompted in the screenshot below, to log in as the client of the KNU Domain. 
  
-Image 6.5 Successfully changed the Domain 
+![image](https://github.com/user-attachments/assets/f589ccce-cc1a-469a-ac22-c847ee81783b)
+ 
 
 After restarting the VM, it will link and ask to log in using the username and password as shown below and then all the users set in the AD DC can log in using the machine using the credentials.  Figure 6.6 shows the login to the user Krishan Himesh, which we set up in the AD DC.
  
-Image 6.6 Login using the User details
+![image](https://github.com/user-attachments/assets/6737fac8-fa18-47ec-b0c6-6494f414be26)
 
-After setting up all the machines, the next step is implementing the Access Control and User Policies in the AD CD server to demonstrate the security levels and administration.  
-Implementing three access control protocols and Testing
+
+After setting up all the machines, the next step is implementing the Access Control and User Policies in the AD CD server to demonstrate the security levels and administration. 
+
+## Implementing three access control protocols and Testing
+
 Then implemented the demonstration of the three access control features to distinguish between Students and the Academic Staff
-1.	Application installation Policy
+
+### 1.	Application installation Policy
 The first policy is to set only academic staff to install the applications, whereas students cannot install any applications in their user accounts or on local machines. 
 Enabled Run-only specified Windows applications to install only chrome.exe for Staff OU. 
  
-Image 7.1 Application Installation Policy in Staff OU
-
+![image](https://github.com/user-attachments/assets/592d50ba-1443-453c-8ece-3725f2a44e94)
 
 
 Restrict installation of applications in the Student OU as follows:
  
-Image 7.2 Application Installation Policy in Student OU
- 
-Image 7.3 Application Installation Policy in Student OU
+![image](https://github.com/user-attachments/assets/b4fb2491-077e-4ba3-8d6e-0559b44cbf5e)
+
+ ![image](https://github.com/user-attachments/assets/eae2ba85-31ee-483b-be58-a4377093ab99)
+
 Add Policy only to use installed programs in the C:\ to create the allow list.
  
-Image 7.4 Allow list Policy in Student OU
+![image](https://github.com/user-attachments/assets/d2a9f84a-3395-4b13-ae6a-02e763326bf5)
+
 Provide User Access to Staff OU Ito installs Chrome.exe application
  
-Image 7.5 Application Installation Policy in Staff OU
+![image](https://github.com/user-attachments/assets/04404f82-6e30-42fc-85bb-c463e0b8881f)
+
  
-Image 7.6 Application Installation Policy in Student OU
+![image](https://github.com/user-attachments/assets/f9d968b4-87cb-4201-9592-9b55a3655af5)
+
 
  
-2.	Implementing access control for academic resources drive 
+### 2.	Implementing access control for academic resources drive 
 Create a folder in the Main Server and share it with permissions as shown below to demonstrate the access control to the Academic Resources. 
  
-Image 7.7 Access Control to the Academic Resources
+![image](https://github.com/user-attachments/assets/a7b3f21c-bb81-4817-95b9-edae254e032d)
+
  
-Image 7.8 Access Control to the Academic Resources
+![image](https://github.com/user-attachments/assets/5f7c5493-7dc8-4a9a-bf75-04e5e42f10b4)
+
 Then, the permission level for each Organisational Unit is set as follows. 
  
-Image 7.9 Access Control Permissions to the Academic Resources
+![image](https://github.com/user-attachments/assets/8c1bc0b1-94d3-46c1-b477-24edfab23674)
+
  
-Image 7.10 Access Control Permissions to the Academic Resources
-3.	Configure the Firewall rules to block traffic from Facebook.com
+![image](https://github.com/user-attachments/assets/1e7c84a1-e323-4600-ae3a-e90dc90464c9)
+
+### 3.	Configure the Firewall rules to block traffic from Facebook.com
 Using the GUI of the Pfsense, configure the firewall to block the traffic from Facebook.com. 
 For that, we have blocked the public IP range of Facebook, which is 157.240.8.0/24. 
  
-Image 7.11 Block the traffic from the Facebook.com
+![image](https://github.com/user-attachments/assets/0004089e-7534-4d5a-8997-a9c0bec554a5)
+
 
 After creating the policies, Update the policies in the clients using the following command 
  
-Image 7.12 Update GPO in the Client machines
+![image](https://github.com/user-attachments/assets/e1d00414-d0f7-44a8-91b5-d793acf28aeb)
+
 
 In addition to the main policies, we have set up a Common Policy for Turnoff Windows  Updates.
  
