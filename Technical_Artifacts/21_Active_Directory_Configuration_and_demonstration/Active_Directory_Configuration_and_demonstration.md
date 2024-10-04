@@ -22,8 +22,9 @@ We have chosen Role Base Access Control (RBAC) as our Access Control method for 
 - *Rule-based access control* is not static and is much more granular and flexible than Role-based access control (Bertolissi & Uttha 2013). However, managing many rules makes it very difficult to identify what exactly is happening. Therefore, it is more appropriate for those organisations that require condition access rather than a simple one like a university.
 
 - *Policy-Based Access Control (PBAC)* is centralized in management, highly adaptive, and scalable to accommodate the constantly changing environment (Pal et al. 2018). However, it involves complicated initialization, can be tricky to apply, and possibly brings about performance impacts caused by multiple policy executions.
-- 
+  
 Therefore, RBAC is most appropriate for KN University since it is scalable, efficient and provides centralized user access control. Since it serves the entire community, including students and academic and non-academic staff across the various campuses, roles eliminate the complexity of permission assignment by categorizing users according to their roles. This also increases the level of security and decreases the burden of administrative work because permissions will have been centralised for a specific group of users, thus eliminating divergent opportunities for human errors.
+
 Also, RBAC's effectiveness in maintaining secure and consistent access policies complements the university’s requirement of preserving the privacy of information it stores, including academic records and research data, while simultaneously providing flexibility in information resource access across faculties and departments. Due to its well-ordered procedure for distributing roles and documented delegation, RBAC offers the finest blend of security, simplicity of audit, and adaptability to the complex requirements that KN University’s growing number of interconnected structures possess.
 
 
@@ -31,7 +32,7 @@ Also, RBAC's effectiveness in maintaining secure and consistent access policies 
 
 The most crucial demonstration step is setting up Windows Active Directory (AD). AD is a Microsoft directory service that helps manage a domain's users, computers and network resources. It runs on Windows Server platforms and uses the LDAP, Kerberos, and DNS to authenticate and authorise. AD can provide IT administrators the right to manage permissions, security policies, and access rights to resources in a network. It provides the layered structure of networks in terms of domains, trees, and forests, providing more scalability and security for organizations.
 
-1.	Creating the Virtual Machine and AD
+### 1.	Creating the Virtual Machine and AD
 These are the main steps of creating the VM.
 1.	Install Oracle Virtual Box and create a VM using the following configurations.
 •	RAM – 4GB
@@ -41,17 +42,19 @@ These are the main steps of creating the VM.
 3.	Complete the general startup settings to add the Administrator user. 
 4.	Open the Server Manager, click Add Role and Features, then add the Active Directory Domani Service (AD DS) and complete the following process.
  
-Image 1.1 Adding Active Directory Domain Controller Role
-5.	Promote the Server to a Domain controller from the Notification flag shown in figure 1.3 and add a new forest, give the domain name as knu.local and complete the process by providing the Directory  Services Restore Mode (DRSM) password. 
+![image](https://github.com/user-attachments/assets/ebfa8bab-1a1e-446b-a809-bfb77a349bb8)
+
+5.	Promote the Server to a Domain controller from the Notification flag shown in Figure 1.3 and add a new forest, give the domain name as knu.local and complete the process by providing the Directory  Services Restore Mode (DRSM) password. 
  
-Image 1.2 Promoting Server to Domain Controller
+![image](https://github.com/user-attachments/assets/1fb4129d-2ba7-493a-9460-82707d86aca1)
+
 6.	Re-boot the Windows Server VM to complete the process.
 7.	Configure the DNS settings and provide the 10.255.2.10 as the Static IP.
 The following screenshot shows the completed AD DC. 
  
-Image 1.3 Active Directory Domain Controller
+![image](https://github.com/user-attachments/assets/94643de7-e02f-4bc1-b779-66e81550ca4a)
 
-2.	Creating Organisational Units
+### 2.	Creating Organisational Units
 Then, create the User groups using the following steps for each user group. For the demonstration, we created only three user groups 
 1.	Students
 2.	Academic Staff
@@ -60,42 +63,45 @@ Active Directory Users and Computers will create New > Organizational Units (UOs
 
 The following screenshot shows the creation of the Organisational units.
  
-Image 2.1 Creating Organisational Units
+![image](https://github.com/user-attachments/assets/8f61f499-0ec3-40ef-a244-51cc81672df4)
+
 Then, add the dummy data to each organisational unit. We used the following notation to add the users for testing. 
-•	Username [initial of first name]. [last-named]
-•	Default password: [initials of the username] @[date of birth in the format of ddmmyy]
+-	Username [initial of first name]. [last-named]
+-	Default password: [initials of the username] @[date of birth in the format of ddmmyy]
  
-Image 2.2 After setting the Ous. 
-3.	Setup DHCP Server
+![image](https://github.com/user-attachments/assets/6d69f076-c80e-4ea5-a3aa-af8d985d811b)
+ 
+### 3.	Setup DHCP Server
 For the demonstration, the DHCP server has been installed in the same Server 10.255.2.10
  
-Image 3.1 Installing DHCP Server 
+![image](https://github.com/user-attachments/assets/054c9382-2538-48ce-9642-de720b270942)
+
  After installing the DHCP server, configure it as follows: 
-Configuring DHCP Server
+ 
+*Configuring DHCP Server*
 1.	After installation, open DHCP Manager from Server Manager > Tools.
 2.	Right-click IPv4 and select New Scope.
 3.	Configure DHCP scopes for each VLAN/subnet:
-User community	Wireless Devices VLAN	Subnet	Subnet Mask	Number of usable addresses
-Students	VLAN10	10.10.0.0/21	255.255.248.0	2046
-Academic Staff	VLAN20	10.20.0.0/22	255.255.252.0	1022
-Non-academic Staff	VLAN30	10.30.0.0/22	255.255.252.0	1022
-Guest/Visitor Network	VLAN40	10.40.0.0/22	255.255.252.0	1022
-Table 3.1 VLAN Configuration 
+
+![image](https://github.com/user-attachments/assets/1fd1ee09-f233-4b87-9c9e-568fde67b491)
+
 
 
 4.	For each scope, right-click the scope and select Configure Options.
 5.	Add the following options:
-•	003 Router: Enter the default gateway for the subnet (e.g., 10.10.0.1 for Students).
-•	006 DNS Server: Enter the DNS server address (e.g., 10.255.2.10).
+-	003 Router: Enter the default gateway for the subnet (e.g., 10.10.0.1 for Students).
+-	006 DNS Server: Enter the DNS server address (e.g., 10.255.2.10).
 
  
-Image 3.2 Setting up DHCP pools 
+![image](https://github.com/user-attachments/assets/391cfd07-7b3f-4e1f-8d33-90eded317c17)
+
 
  
-4.	Set Up Network Policy Server (NPS) 
+### 4.	Set Up Network Policy Server (NPS) 
 Set Up Network Policy Server (NPS) for RADIUS access and VLAN Assignment. Install the NPS role by adding a new Role and Feature as follows. 
  
-Image 4.1 Installing Network Policy and Access Service 
+![image](https://github.com/user-attachments/assets/5fa69bb3-7fc3-428d-80c7-3d7b50f9b2ea)
+ 
 Installed Network Policy Server (NPS) using the following steps:
 1.	Open Server Manager > Add Roles and Features.
 2.	Select Network Policy and Access Services and click Next.
