@@ -138,30 +138,46 @@ Then, create Network Policies for Each User Group using the following steps
 3.	Complete the wizard and ensure the policy is enabled.
 4.	These policies will now assign Students to VLAN 10, Academic Staff to VLAN 20 and Non-Academic Staff to 30 upon successful authentication.
  
-Image 4.2 Setting the Network Policies for user groups 
+![image](https://github.com/user-attachments/assets/e6fb18ab-def2-450f-986e-3e3f2e37ec58)
+
  
-5.	Setup Group Policies
+### 5.	Setup Group Policies
+
 After setting up and configuring the VMs, the final step is to configure the Group policies to control the access of each user group.
 
 1. Configure Group Policies (GPOs)
 Before creating the controls, we made all the Group Policies for each user group using the following steps:
+
 I.	Open Group Policy Management.
+
 II.	Right-click on the Group Policy Objects container and select New.
+
 III.	Name the policy: 
+
 a.	StudentPolicy, 
+
 b.	AcademicStaffPolicy, 
+
 c.	NonAcademicStaffPolicy
+
 IV.	Edit the policy by right-clicking and selecting Edit.
+
 V.	Set user and computer configurations (e.g., restrict access to certain network drives for students).
+
+
 The following screenshot shows the GPOs
  
-Image 4.4 Creating Group Policies
+![image](https://github.com/user-attachments/assets/143da5e7-6acc-488c-8a39-ec1edea47935)
+
 After creating the GPOs, 
+
 2.	Link GPOs to Organisational Units (OU)s:
+
 i.	Right-click on the OU and select Link an Existing GPO.
 ii.	Choose the appropriate GPO
  
-Setting up the PfSense VM
+## Setting up the PfSense VM
+
 Download the ISO of the Netgate PfSense using the following link: 
 https://www.pfsense.org/download/   
 Then, Installed PFsense into the VM of the Virtual Box as below
