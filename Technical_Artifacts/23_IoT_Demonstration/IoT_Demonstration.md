@@ -7,10 +7,11 @@ The system screens temperature and humidity using IoT sensors. Node-RED is utili
 -  Node-RED for flow management and continuous data representation
 -  Azure IoT Hub for cloud storage, examination, and alerting
 - 	Data Processing and stockpiling utilizing Sky blue parts (IoT Hub)
+  
 ## Components:
 ### Sensors:
-•	Temperature Sensor: Measures the temperature of the environment.
-•	Humidity Sensor: Measures the relative humidity in the environment.
+-  Temperature Sensor: Measures the temperature of the environment.
+-  Humidity Sensor: Measures the relative humidity in the environment.
 
 ## Node-RED:
 
