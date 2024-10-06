@@ -64,51 +64,141 @@ The figure shows how the different components of network security are associated
 -  Patch Deployment: Patch deployment is the process of applying patches to programming and frameworks to address weaknesses, fix bugs, or improve functionality.
 -  Testing: Testing includes approving that patches and updates are applied accurately and don't present new issues or conflicts.
 
+## Vulnerability Testing
 
+Vulnerability Testing was done of KN University web server using Nmap and Nessus.
+
+ ![image](https://github.com/user-attachments/assets/051e25c3-0a3f-46dd-b683-46370ff2bfb0)
+
+Fig: Vulnerability Testing
+
+### Nessus testing for vulnerabilities
+![image](https://github.com/user-attachments/assets/37c1b552-68f8-4396-97c8-1bfa81438611)
+
+ 
+### Nessus Scan Report – Vulnerability by Host 
+ ![image](https://github.com/user-attachments/assets/a02eb142-ba06-4a53-a0c0-1a2bdd1a8abc)
+ ![image](https://github.com/user-attachments/assets/5aee3ed7-85a6-438d-88d8-61f17eb3f30a)
+
+
+INFO
+N/A	-	110723 Target Credential Status by Authentication Protocol - No Credentials Provided
+ 
+* indicates the v3.0 score was not available; the v2.0 score is shown
+
+ 
 ## Policies and Procedures
-
-- At KN University, the Policies and Methods segment frames fundamental principles and rules that govern network security, data protection, and client conduct to guarantee a solid, consistent, and well-working IT infrastructure. Here is a breakdown of key components:
--  Network Security Policy: The Network Security Policy lays out rules for shielding the university's network from unapproved access, data breaches, and other security dangers. This guarantees that main approved people with explicit jobs and obligations approach the organization assets they need to play out their duties.
-
+At KN University, the Policies and Methods segment frames fundamental principles and rules that govern network security, data protection, and client conduct to guarantee a solid, consistent, and well-working IT infrastructure. Here is a breakdown of key components:
+-  Network Security Policy: The Network Security Policy lays out rules for shielding the university's network from unapproved access, data breaches, and other security dangers. This guarantees that main approved people with explicit jobs and obligations approach the organization assets they need to play out their duties. The network security policies for KN University are:
 -  Access Control: Clients (students, staff, or any clients) are allowed admittance to just the network assets essential for their jobs. For example, staff individuals could approach student records, while students just access individual academic data.
-
-### Incident Response Plan
--  This plan frames the steps the university will take to answer security incidents, for example, network breaks, data breach, or cyberattacks. The objective is to rapidly distinguish and relieve dangers while limiting harm and interruption to the university's activities.
-
-- Steps for incident response:
-Detection: Identifying the presence of a potential security incident.
-Investigation: Assessing the nature and effect of the incident.
-Containment: Making quick moves to restrict the spread of the danger.
-Eradication: Eliminating the reason for the incident (e.g., malware, unapproved access).
-Recuperation: Reestablishing ordinary tasks and securing systems against future incidents.
-Illustrations Learned: Post-incident audit to comprehend what turned out badly, report upgrades, and improve future response procedures. 
-
-### Data Protection Policy:
-- This arrangement establishes the legitimate administration, characterization, and handling of data inside KN College, guaranteeing consistence with nearby and worldwide guidelines like GDPR. Information security measures are basic in forestalling unapproved admittance to delicate data, for example, student records, research information, or financial transactions.
-Key Parts:
-Data Arrangement: Characterizing classifications of data in view of awareness (e.g., public, interior, confidential).
-Taking care of Methodology: Rules for storing, communicating, and sharing information safely, including encryption and access controls.
-
-### User Training
-- KN University focuses on teaching clients about normal security dangers and best practices. Normal instructional meetings are led for the two students and staff, covering fundamental subjects to assist them with remaining educated and cautious.
-
-### Training Subjects
-- Phishing Awareness: Recognizing and avoiding email and electronic phishing endeavors that look to take individual data.
-Password Management: Best practices for creating strong passwords, utilizing password managers, and shielding login certifications.
-Safe Web Use: Rules for safe perusing, perceiving malevolent sites, and keeping away from dangerous internet-based conduct.
+-  Patch Management: Consistently update and patch software, systems, and network devices to safeguard against known weaknesses.
+-  Data Encryption: Encrypt sensitive data, including student records and exploration information, both in transit and at rest.
+- Incident Response Plan: This plan frames the steps the university will take to answer security incidents, for example, network breaks, data breach, or cyberattacks. The objective is to rapidly distinguish and relieve dangers while limiting harm and interruption to the university's activities. 
+Steps for incident response:
+-	 Detection: Identifying the presence of a potential security incident.
+-	 Investigation: Assessing the nature and effect of the incident.
+-	 Containment: Making quick moves to restrict the spread of the danger.
+-	 Eradication: Eliminating the reason for the incident (e.g., malware, unapproved access).
+-	 Recuperation: Reestablishing ordinary tasks and securing systems against future incidents.
+-	 Illustrations Learned: Post-incident audit to comprehend what turned out badly, report upgrades, and improve future response procedures.
    
-- These approaches and strategies intend to defend KN University's IT frameworks, safeguard information, and engage clients to act dependably inside the network. They contribute to a safe environment helpful for scholarly and administrative functions.
+## Data Protection Policy:
+This arrangement establishes the legitimate administration, characterization, and handling of data inside KN College, guaranteeing consistency with nearby and worldwide guidelines like GDPR. Information security measures are basic in forestalling unapproved admittance to delicate data, such as student records, research information, or financial transactions.
 
-
-# Risk Management
-## Risk Assessment
--  Purpose: Risk assessment is a fundamental part of risk management. Its principal job is to identify, evaluate, and focus on dangers to an affiliation's assets, assignments, and objectives. By understanding these risks, affiliations can foster methodologies to mitigate or manage them effectively, ensuring the continuity and strength of their activities.
+### Key Parts:
+-  Data Arrangement: Characterizing data classifications given awareness (e.g., public, interior, confidential).
+Taking care of Methodology: Rules for storing, communicating, and sharing information safely, including encryption and access controls.
+-  User Training: KN University focuses on teaching clients about normal security dangers and best practices. Normal instructional meetings are led for the two students and staff, covering fundamental subjects to assist them with remaining educated and cautious.
   
-## Risk Mitigation
-- Risk mitigation implies implementing methodologies and exercises to diminish the probability and impact of recognized risks. The goal is to restrict likely risks and shortcomings, subsequently shielding a network assets, errands, and objectives. Convey firewalls to control and screen network traffic, forestalling unapproved access and mitigating external risks. Sporadically survey and update security approaches and strategies to ensure they stay significant and fruitful in watching out for current risks. Provide training on broad security works on, including perceiving phishing endeavours, safe web use, and genuine treatment of sensitive information.
+### Training Subjects:
+-  Phishing Awareness: Recognizing and avoiding email and electronic phishing endeavours that look to take individual data.
+Password Management: Best practices for creating strong passwords, utilizing password managers, and shielding login certifications.
+-  Safe Web Use: Rules for safe perusing, perceiving malevolent sites, and keeping away from dangerous internet-based conduct.
+These approaches and strategies intend to defend KN University's IT frameworks, safeguard information, and engage clients to act dependably inside the network. They contribute to a safe environment that is helpful for scholarly and administrative functions.
 
-## Risk Analysis
-- Risk analysis at KN University implies distinguishing, surveying, and mitigating expected dangers to its IT framework, data, and activities. Key dangers incorporate cybersecurity threats (e.g., data breaks), functional interruptions, information security concerns, and physical hazards. Risks are assessed in view of probability and effect, with high-priority dangers, for example, data breaches or system blackouts getting the most consideration. Mitigating procedures incorporate cybersecurity measures, regular data backups, disaster recuperation plans, and client training. Nonstop observing, reviews, and clear communication guarantee that the risk management interaction adjusts to new difficulties, helping shield the university's systems and data.
 
-## Continuous Monitoring
--  Constant checking incorporates the consistent impression of a college's IT environment to recognize and answer security risks and execution issues dynamically. Network observing gadgets track the exhibition, availability, and security of network system. They give pieces of information into network traffic, device status, and potential issues that could influence network performance or security.
+
+## Network Security Policies:
+
+### Access Control Policy
+
+ ![image](https://github.com/user-attachments/assets/d98d8689-8dac-4381-98d5-97d26ee603aa)
+
+Fig 1: Access Control Policy
+
+![image](https://github.com/user-attachments/assets/36e79c7e-24c8-4a22-a5c3-8a1051707cc9)
+
+ Fig 2: Access Control Methods and Security
+
+ ![image](https://github.com/user-attachments/assets/539b9094-5ac2-4b51-8e8a-750e6ec737e9)
+
+Fig 3: Policy Enforcement
+
+### Data Backup and Redundancy Policy
+
+ ![image](https://github.com/user-attachments/assets/269ad2c6-26c2-4732-a664-f9f9ab9d71e2)
+
+Fig 4: Data Backup and Redundancy Policy
+
+![image](https://github.com/user-attachments/assets/8f4fdb2f-b102-4361-a278-bc9cf4772926)
+
+ Fig 5: Data Redundancy and Security
+
+![image](https://github.com/user-attachments/assets/683fd263-ad94-4b8b-8e5d-b5ef0d8906ad)
+
+ Fig 6: Disaster Recovery
+
+
+### Device and Endpoint Security Policy
+
+ ![image](https://github.com/user-attachments/assets/b2160c41-d775-4b38-b3f5-fb75bef26bda)
+
+Fig 7: Device and Endpoint Security
+
+![image](https://github.com/user-attachments/assets/fe9684ff-6a9e-42d6-ab9e-c0af77577266)
+
+ Fig 8: Authentication and Endpoint Monitoring
+
+ ![image](https://github.com/user-attachments/assets/3e10d46d-f883-4b73-865c-4d6c7628b70c)
+
+Fig 9: Data Loss Prevention
+
+
+### Physical Security Policy
+
+ ![image](https://github.com/user-attachments/assets/3e061be8-d6f2-4341-ad50-19b5f01e989c)
+
+Fig 10 : Physical Security
+
+ ![image](https://github.com/user-attachments/assets/e6b25b1a-4f81-40e8-b739-ac1ae4d0422b)
+
+Fig 11: Key Administration and Security Awareness
+
+### Incident Response Policy
+
+![image](https://github.com/user-attachments/assets/f947df80-0cad-4ede-9161-36ae6a2977be)
+
+ Fig 12: Incident Response
+
+ ![image](https://github.com/user-attachments/assets/7c126bf2-bad7-43a3-ad94-dae9e95d424b)
+
+Fig 13: Incident Reporting
+
+ 
+## Risk Management
+
+Purpose: Risk assessment is a fundamental part of risk management. Its principal job is identifying, evaluating, and focusing on dangers to an affiliation's assets, assignments, and objectives. By understanding these risks, affiliations can foster methodologies to mitigate or manage them effectively, ensuring the continuity and strength of their activities.
+
+ ![image](https://github.com/user-attachments/assets/7b4e8bae-74e5-4388-8a87-8c6f72e18077)
+
+Fig: Risk Assessment
+
+### Risk Mitigation
+Risk mitigation implies implementing methodologies and exercises to diminish the probability and impact of recognized risks. The goal is to restrict risks and shortcomings, shielding network assets, errands, and objectives. Convey firewalls to control and screen network traffic, forestalling unapproved access and mitigating external risks. Sporadically survey and update security approaches and strategies to ensure they stay significant and fruitful in watching out for current risks. Provide training on broad security works, including perceiving phishing endeavours, safe web use, and genuine treatment of sensitive information.
+
+
+### Risk Analysis
+Risk analysis at KN University implies distinguishing, surveying, and mitigating expected dangers to its IT framework, data, and activities. Key dangers incorporate cybersecurity threats (e.g., data breaks), functional interruptions, information security concerns, and physical hazards. Risks are assessed in view of probability and effect, with high-priority dangers, for example, data breaches or system blackouts getting the most consideration. Mitigating procedures incorporate cybersecurity measures, regular data backups, disaster recuperation plans, and client training. Nonstop observing, reviews, and clear communication guarantee that the risk management interaction adjusts to new difficulties, helping shield the university's systems and data.
+
+### Continuous Monitoring 
+Constant checking incorporates the consistent impression of a college's IT environment to recognize and answer security risks and execution issues dynamically. Network observing gadgets track the exhibition, availability, and security of the network system. They give pieces of information about network traffic, device status, and potential issues that could influence network performance or security.
