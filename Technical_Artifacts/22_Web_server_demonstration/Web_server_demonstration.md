@@ -32,12 +32,13 @@ XAMPP is an open-source cross-platform web server arrangement that incorporates 
 
 Fig: 2.1 XAMPP Installation
 
--- After installation is completed, XAMPP services are started, and it is running successfully. 
+After installation is completed, XAMPP services are started, and it is running successfully. 
 
  ![image](https://github.com/user-attachments/assets/e2715394-9b04-4a48-80f3-1fe493c1099d)
 
 Fig: 2.2 Starting XAMPP
--- Apache is configured to listen on ports 80 and 443. Ensuring these ports are open in both the Azure NSG and the operating system level firewall.
+
+Apache is configured to listen on ports 80 and 443. Ensuring these ports are open in both the Azure NSG and the operating system level firewall.
 
  ![image](https://github.com/user-attachments/assets/72b7b897-fa9c-49cf-af68-9ddcd80b9a02)
 
