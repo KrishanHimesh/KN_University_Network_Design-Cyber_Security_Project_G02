@@ -1,7 +1,7 @@
 # IoT Demonstration
 
 ## Overview
-The system screens temperature and humidity using IoT sensors. Node-RED is utilized for data assortment, handling, and integration with Azure IoT Hub for unified monitoring, storage, and analysis. The overall system comprises of:< br / >
+The system screens temperature and humidity using IoT sensors. Node-RED is utilized for data assortment, handling, and integration with Azure IoT Hub for unified monitoring, storage, and analysis. The overall system comprises of:
 •	Temperature Sensor Node (e.g., DHT11, DHT22)
 •	Humidity Sensor Node (Separate sensor)
 •	Node-RED for flow management and continuous data representation
