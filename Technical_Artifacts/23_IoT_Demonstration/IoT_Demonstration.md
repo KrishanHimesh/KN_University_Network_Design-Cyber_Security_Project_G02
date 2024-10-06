@@ -106,8 +106,8 @@ This dashboard, marked KNU IoT Dashboard, visualizes temperature data from five 
 
 ### Gauge Meters:
 Each gauge shows the current temperature for a particular sensor, with a scope of 0 to 50°C.The variety sections of the gauges likely address various limits (green for normal, yellow for warning, and red for danger):
-•	MEL 1.01: Shows a temperature of 27°C, in the yellow zone. 
-•	MEL 1.02: Shows a temperature of 30°C, also in the yellow zone.
+-- MEL 1.01: Shows a temperature of 27°C, in the yellow zone. 
+-- MEL 1.02: Shows a temperature of 30°C, also in the yellow zone.
 •	MEL 1.03: Shows 40°C, which is in the red zone, demonstrating a critical temperature.
 •	MEL 1.04: Displays 34°C, in the yellow zone.
 •	MEL 1.05: Displays 30°C, in the yellow zone.
