@@ -15,10 +15,10 @@ The system screens temperature and humidity using IoT sensors. Node-RED is utili
 
 ## Node-RED:
 
-•	Input Nodes: Gather information from the temperature and humidity sensors.
-•	Processing Function Nodes: Process and examine the data locally.
-•	Azure IoT Hub Nodes: Send processed data to Azure IoT Hub for cloud storage and analysis.
-•	Dashboard Nodes: Create real-time dashboards for visualization through gauge and line graphs.
+-  Input Nodes: Gather information from the temperature and humidity sensors.
+-  Processing Function Nodes: Process and examine the data locally.
+-  Azure IoT Hub Nodes: Send processed data to Azure IoT Hub for cloud storage and analysis.
+-  Dashboard Nodes: Create real-time dashboards for visualization through gauge and line graphs.
 
 ## Node-Red Setup
 a.	Installation: Install node.js from Google. Run the command node-red in a command prompt to run the node-red server. The server is running at 127.0.0.1:1880.
@@ -107,27 +107,27 @@ This dashboard, marked KNU IoT Dashboard, visualizes temperature data from five 
 
 ### Gauge Meters:
 Each gauge shows the current temperature for a particular sensor, with a scope of 0 to 50°C.The variety sections of the gauges likely address various limits (green for normal, yellow for warning, and red for danger):
--- MEL 1.01: Shows a temperature of 27°C, in the yellow zone. 
--- MEL 1.02: Shows a temperature of 30°C, also in the yellow zone.
-•	MEL 1.03: Shows 40°C, which is in the red zone, demonstrating a critical temperature.
-•	MEL 1.04: Displays 34°C, in the yellow zone.
-•	MEL 1.05: Displays 30°C, in the yellow zone.
+-  MEL 1.01: Shows a temperature of 27°C, in the yellow zone. 
+-  MEL 1.02: Shows a temperature of 30°C, also in the yellow zone.
+-  MEL 1.03: Shows 40°C, which is in the red zone, demonstrating a critical temperature.
+-  MEL 1.04: Displays 34°C, in the yellow zone.
+-  MEL 1.05: Displays 30°C, in the yellow zone.
 Similarly,
-•	MEL 1.01: It shows a humidity of 36°C in the red zone. 
-•	MEL 1.02: It shows a humidity of 32°C, and it is also in the yellow zone.
-•	MEL 1.03: Shows a humidity of 32°C, which is in the yellow zone.
-•	MEL 1.04: Displays 31°C, in the yellow zone.
-•	MEL 1.05: Displays 37°C, in the red zone.
+-  MEL 1.01: It shows a humidity of 36°C in the red zone. 
+-  MEL 1.02: It shows a humidity of 32°C, and it is also in the yellow zone.
+-	 MEL 1.03: Shows a humidity of 32°C, which is in the yellow zone.
+-	 MEL 1.04: Displays 31°C, in the yellow zone.
+-	 MEL 1.05: Displays 37°C, in the red zone.
 
 ### Line Graphs:
 Each line chart corresponds to the respective sensor and shows the temperature pattern over time
-•	The X-axis addresses time in a short interval (~minutes).
-•	The Y-axis addresses temperature (from 0 to 50°C).
+-  The X-axis addresses time in a short interval (~minutes).
+-  The Y-axis addresses temperature (from 0 to 50°C).
 The graphs catch variances in temperature and humidity for every sensor, giving knowledge into how the readings have changed throughout recent minutes.
 For instance:
-•	MEL 1.01: Shows a slight increment and afterwards adjustment.
-•	MEL 1.03: Demonstrates a drop after reaching a high point.
-•	MEL 1.05: Showcases minor changes yet remain moderately consistent.
+-	 MEL 1.01: Shows a slight increment and afterwards adjustment.
+-	 MEL 1.03: Demonstrates a drop after reaching a high point.
+-	 MEL 1.05: Showcases minor changes yet remain moderately consistent.
 This arrangement offers an unmistakable outline of ongoing sensor information and verifiable patterns, making it simple to recognize inconsistencies, such as the critical temperature of MEL 1.03.
 
 ## Email:
