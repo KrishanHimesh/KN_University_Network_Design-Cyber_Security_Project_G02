@@ -32,6 +32,7 @@ XAMPP is an open-source cross-platform web server arrangement that incorporates 
 
 Fig: 2.1 XAMPP Installation
 After installation is completed, XAMPP services are started, and it is running successfully. 
+
  ![image](https://github.com/user-attachments/assets/e2715394-9b04-4a48-80f3-1fe493c1099d)
 
 Fig: 2.2 Starting XAMPP
