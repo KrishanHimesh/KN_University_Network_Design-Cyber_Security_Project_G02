@@ -2,11 +2,11 @@
 
 ## Overview
 The system screens temperature and humidity using IoT sensors. Node-RED is utilized for data assortment, handling, and integration with Azure IoT Hub for unified monitoring, storage, and analysis. The overall system comprises of:
-•	Temperature Sensor Node (e.g., DHT11, DHT22)
-•	Humidity Sensor Node (Separate sensor)
-•	Node-RED for flow management and continuous data representation
-•	Azure IoT Hub for cloud storage, examination, and alerting
-•	Data Processing and stockpiling utilizing Sky blue parts (IoT Hub)
+-  •	Temperature Sensor Node (e.g., DHT11, DHT22)
+-  •	Humidity Sensor Node (Separate sensor)
+-  •	Node-RED for flow management and continuous data representation
+-  •	Azure IoT Hub for cloud storage, examination, and alerting
+-  •	Data Processing and stockpiling utilizing Sky blue parts (IoT Hub)
 ## Components:
 ### Sensors:
 •	Temperature Sensor: Measures the temperature of the environment.
