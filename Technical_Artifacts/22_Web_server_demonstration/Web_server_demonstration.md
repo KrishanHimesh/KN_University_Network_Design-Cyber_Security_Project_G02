@@ -15,7 +15,7 @@ To host the web server on the cloud, an Azure Virtual Machine has been provision
 ![image](https://github.com/user-attachments/assets/39911ecb-7090-44c6-9806-bc97292a462b)
 
  
-Fig: 1.1 Creating Virtual Machine
+                                   Fig: 1.1 Creating Virtual Machine
 
 Public IP Address: A static public IP address 4.227.162.127 is assigned to the VM, ensuring that the web server is always accessible through the same IP. 
 Networking:
